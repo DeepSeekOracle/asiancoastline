@@ -1,9 +1,8 @@
-/* Excavationpro Listen — shell cache only (streams stay network) */
-const CACHE = 'excavationpro-listen-shell-v2';
+/* Excavationpro Listen — network-first HTML, cache static shell only */
+const CACHE = 'excavationpro-listen-shell-v4';
 const SHELL = [
-  './excavationpro-listen.html',
   './manifest-listen.webmanifest',
-  './assets/listen-icon-512.svg',
+  './ads.txt',
 ];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -17,11 +16,29 @@ self.addEventListener('activate', (e) => {
 });
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
-  // never cache HF audio streams
   if (url.hostname.includes('huggingface.co') || url.pathname.includes('/stream/')) {
-    return;
+    return; // network only for audio
   }
   if (e.request.method !== 'GET') return;
+
+  // HTML navigations: always prefer network so AdSense/consent updates deploy
+  const isHTML =
+    e.request.mode === 'navigate' ||
+    (e.request.headers.get('accept') || '').includes('text/html') ||
+    url.pathname.endsWith('.html') ||
+    url.pathname === '/' ||
+    url.pathname.endsWith('/');
+
+  if (isHTML) {
+    e.respondWith(
+      fetch(e.request)
+        .then((res) => res)
+        .catch(() => caches.match(e.request))
+    );
+    return;
+  }
+
+  // other same-origin: stale-while-revalidate light
   e.respondWith(
     caches.match(e.request).then((hit) => {
       const net = fetch(e.request).then((res) => {
@@ -31,7 +48,7 @@ self.addEventListener('fetch', (e) => {
         }
         return res;
       }).catch(() => hit);
-      return hit || net;
+      return net || hit;
     })
   );
 });
