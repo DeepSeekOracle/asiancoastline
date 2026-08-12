@@ -12,8 +12,6 @@
 <meta name="bingbot" content="index, follow">
 <meta name="theme-color" content="#0a0a12">
 <meta name="google-adsense-account" content="ca-pub-0646320966060599">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0646320966060599"
-     crossorigin="anonymous"></script>
 <link rel="canonical" href="https://asiancoastline.com/listen.html">
 <link rel="alternate" type="application/json" href="data/public_stream_playlist.json" title="Stream playlist JSON">
 <meta property="og:site_name" content="Excavationpro / Eternal Haven">
@@ -346,8 +344,7 @@ footer { max-width:1120px; margin:24px auto 0; padding:16px; color:var(--muted);
   <div class="ad-region" id="ad-top" aria-label="Advertisement">
     <div class="ad-label">Advertisement</div>
     <div class="ad-gate">Ads help keep free listening online.<br><button type="button" class="btn-enable-ads">Enable ads &amp; cookies</button></div>
-    <div class="ad-box"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0646320966060599" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
-  </div>
+</div>
 
   <div class="tabs" role="tablist">
     <button type="button" class="active" data-tab="player">Player</button>
@@ -401,8 +398,7 @@ footer { max-width:1120px; margin:24px auto 0; padding:16px; color:var(--muted);
     <div class="ad-region" id="ad-mid" aria-label="Advertisement" style="margin-top:16px">
       <div class="ad-label">Advertisement</div>
       <div class="ad-gate">Ads help keep free listening online.<br><button type="button" class="btn-enable-ads">Enable ads &amp; cookies</button></div>
-      <div class="ad-box"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0646320966060599" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
-    </div>
+</div>
   </div>
 
   <div id="panel-ledger" class="panel hidden">
@@ -472,7 +468,7 @@ footer { max-width:1120px; margin:24px auto 0; padding:16px; color:var(--muted);
       </div>
     </div>
     <p class="sub" style="margin-top:14px">Privacy: Advertising cookies load only after you accept the banner. See Eternal Haven for full cookie policy.
-    AdSense publisher: <code>ca-pub-0646320966060599</code> · <a href="ads.txt">ads.txt</a> · <button type="button" id="btn-ads-settings" style="cursor:pointer;background:transparent;border:none;color:var(--cyan);text-decoration:underline;font:inherit;padding:0">Ads &amp; cookies settings</button></p>
+    <p class="muted">Ads are not shown on the player screen. See <a href="/">home guides</a> and <a href="ads.txt">ads.txt</a>.</p>
   </div>
 </div>
 
@@ -594,40 +590,10 @@ document.getElementById('nav-main').innerHTML = NAV.map(([label, href, cls]) =>
   href ? `<a href="${href}" class="${cls || ''}" ${href.startsWith('http') && !href.includes('deepseekoracle.github.io/Excavationpro') ? 'target="_blank" rel="noopener"' : ''}>${label}</a>` : ''
 ).join('');
 
-// Cookie consent + AdSense (load script only after accept — policy aligned with Eternal Haven)
-const ADSENSE_SRC = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0646320966060599';
-function showAdRegions() {
-  document.querySelectorAll('.ad-region').forEach(el => el.classList.add('ads-consent'));
-}
-function pushAdUnits() {
-  document.querySelectorAll('ins.adsbygoogle').forEach(el => {
-    if (el.getAttribute('data-adsbygoogle-status')) return;
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-      el.setAttribute('data-adsbygoogle-status', 'done');
-    } catch (e) { console.warn('AdSense', e); }
-  });
-}
-function loadAdSenseScript() {
-  showAdRegions();
-  const kick = () => {
-    try { pushAdUnits(); } catch (e) { console.warn('AdSense push', e); }
-  };
-  // Head may already include adsbygoogle.js — still need push() for units
-  if (document.querySelector('script[data-lygo-adsense], script[src*="adsbygoogle.js"]')) {
-    kick();
-    setTimeout(kick, 500);
-    setTimeout(kick, 2000);
-    return;
-  }
-  const s = document.createElement('script');
-  s.async = true;
-  s.src = ADSENSE_SRC;
-  s.crossOrigin = 'anonymous';
-  s.setAttribute('data-lygo-adsense', '1');
-  s.onload = () => { kick(); setTimeout(kick, 500); };
-  document.head.appendChild(s);
-}
+// Cookie banner only — Google ads DISABLED on listen.html (AdSense: no ads without publisher content)
+function showAdRegions() { /* no-op */ }
+function pushAdUnits() { /* no-op: player shell has no Google ads */ }
+function loadAdSenseScript() { /* no-op */ }
 (function cookieConsent() {
   const banner = document.getElementById('cookieBanner');
   const showBanner = () => { if (banner) banner.style.display = 'block'; };
@@ -635,16 +601,13 @@ function loadAdSenseScript() {
   const accept = () => {
     localStorage.setItem('cookiesAccepted', 'true');
     hideBanner();
-    loadAdSenseScript();
   };
   const decline = () => {
     localStorage.setItem('cookiesAccepted', 'false');
     hideBanner();
   };
   const consent = localStorage.getItem('cookiesAccepted');
-  if (consent === 'true') {
-    loadAdSenseScript();
-  } else if (consent === 'false') {
+  if (consent === 'true' || consent === 'false') {
     hideBanner();
   } else {
     showBanner();
@@ -653,17 +616,12 @@ function loadAdSenseScript() {
   const dec = document.getElementById('cookieDecline');
   if (acc) acc.onclick = accept;
   if (dec) dec.onclick = decline;
-  // Re-open from ad placeholders or footer
   document.querySelectorAll('.btn-enable-ads, #btn-ads-settings').forEach((btn) => {
     btn.addEventListener('click', () => {
       localStorage.removeItem('cookiesAccepted');
       showBanner();
     });
   });
-  // If script already present (head tag), still reveal regions after accept path
-  if (consent === 'true') {
-    setTimeout(() => { try { pushAdUnits(); } catch (e) {} }, 800);
-  }
 })();
 
 // ?q= search from URL (SEO SearchAction)
@@ -2015,5 +1973,17 @@ window.LYGO_LISTEN = {
   <a href="https://huggingface.co/spaces/DeepSeekOracle/LYGO-Resonance-Engine" target="_blank" rel="noopener" style="color:#00e0f0">Open Space ↗</a>
   · <a href="/" style="color:#9a9ab0">Music home</a>
 </div>
+
+<footer style="font-family:system-ui,sans-serif;font-size:13px;padding:1rem;border-top:1px solid #333;margin-top:1rem;background:#0b0e14;color:#9aa3b2">
+  <div style="max-width:960px;margin:0 auto">
+    <a href="/" style="color:#7ec8ff">Home (guides)</a> ·
+    <a href="/guides.html" style="color:#7ec8ff">Guides</a> ·
+    <a href="/about.html" style="color:#7ec8ff">About</a> ·
+    <a href="/contact.html" style="color:#7ec8ff">Contact</a> ·
+    <a href="/privacy.html" style="color:#7ec8ff">Privacy</a> ·
+    <a href="/terms.html" style="color:#7ec8ff">Terms</a>
+    <p style="margin:.45rem 0 0">Player shell: no Google ads on this screen (publisher content lives on Home/Guides).</p>
+  </div>
+</footer>
 </body>
 </html>
