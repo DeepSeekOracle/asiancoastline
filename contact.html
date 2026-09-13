@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-cookie-key="asiancoastline_cookies">
 <head>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/assets/site-kit.css">
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact — asiancoastline.com</title>
@@ -85,7 +89,29 @@ ul, ol { padding-left: 1.2rem; }
       <p><a href="https://www.paypal.com/paypalme/ExcavationPro">PayPal.me/ExcavationPro</a></p>
       <h2>Policies</h2>
       <p><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
-    </article>
+    
+    <h2>On-site form</h2>
+    <p>Public contact remains <a href="https://x.com/excavationpro">@Excavationpro</a> on X and GitHub DeepSeekOracle. No street address is published.</p>
+    <form class="contact-form" id="contactForm" action="/thanks.html" method="get" novalidate>
+      <div class="field">
+        <label for="cname">Name</label>
+        <input id="cname" name="name" required autocomplete="name">
+        <p class="field-err">Please enter your name.</p>
+      </div>
+      <div class="field">
+        <label for="cemail">Email</label>
+        <input id="cemail" name="email" type="email" required autocomplete="email">
+        <p class="field-err">Please enter a valid email.</p>
+      </div>
+      <div class="field">
+        <label for="cmsg">Message</label>
+        <textarea id="cmsg" name="msg" rows="5" required></textarea>
+        <p class="field-err">Please write a short message. Do not paste secrets.</p>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+
+</article>
   </main>
 
 </div>
@@ -104,6 +130,20 @@ ul, ol { padding-left: 1.2rem; }
 <p>© 2026 Justin Helmer / Excavationpro · asiancoastline.com — free original music listen portal.
 Contact: <a href="mailto:excavationstation@gmail.com">excavationstation@gmail.com</a></p>
 </div></footer>
+
+
+<div class="sticky-cta" aria-label="Mobile actions">
+  <a class="pri" href="/listen.html">Player</a>
+  <a class="sec" href="https://www.paypal.com/paypalme/ExcavationPro">Donate</a>
+</div>
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent">
+  <div>Ads may use cookies after you accept. <a href="/privacy.html">Privacy</a></div>
+  <div>
+    <button type="button" class="ok" id="cookieOk">Accept</button>
+    <button type="button" class="no" id="cookieNo">Decline</button>
+  </div>
+</div>
+<script src="/assets/site-kit.js" defer></script>
 
 </body>
 </html>
