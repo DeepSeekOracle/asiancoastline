@@ -106,7 +106,8 @@
     }
     const note = document.createElement("p");
     note.className = "sheet-note";
-    note.textContent = lab.long + (rec && rec.stream_title ? " · " + rec.stream_title : "");
+    const shown = rec && (rec.display || rec.stream_title);
+    note.textContent = lab.long + (shown ? " · " + shown : "");
     actions.appendChild(note);
     const fl = document.createElement("a");
     fl.className = "sheet-full";
@@ -125,7 +126,7 @@
     sheet.appendChild(pre);
 
     if (rec) {
-      nowTitle.textContent = rec.stream_title || rec.title;
+      nowTitle.textContent = rec.display || rec.stream_title || rec.title;
       nowState.textContent = lab.short;
     } else {
       nowState.textContent = "Lyrics only · open full player for the catalog";
@@ -221,7 +222,7 @@
     playIdx = mapped.findIndex(function (m) { return m.slug === rec.slug; });
     audio.src = rec.stream_url;
     audio.play().catch(function () {});
-    nowTitle.textContent = rec.stream_title || rec.title;
+    nowTitle.textContent = rec.display || rec.stream_title || rec.title;
     nowState.textContent = matchLabel(rec).short + " · LYGO mini player";
     full.href = LISTEN + "?q=" + encodeURIComponent(rec.title);
     setPlaying(true);

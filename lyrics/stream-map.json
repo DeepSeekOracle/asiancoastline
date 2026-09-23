@@ -1,7 +1,7 @@
 {
  "signature": "Δ9Φ963-LYRICS-STREAM-MAP-v2",
  "artist": "Excavationpro / Justin Helmer",
- "note": "match=existing|title|near-title|instrumental means that title has its own catalog file. match=instrumental-fit means the catalog holds no stream for the title, so an instrumental bed was chosen by the mood of the lyric (mood + mood_hits record which).",
+ "note": "match=existing|title|near-title|instrumental means that title has its own catalog file. match=instrumental-fit means the catalog holds no stream for the title, so an instrumental bed was chosen by the mood of the lyric (mood + mood_hits record which). display = the catalog title with production/processing suffixes stripped for the dock.",
  "stats": {
   "total": 646,
   "with_audio": 646,
@@ -23,7 +23,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "5th-in-dub-major",
@@ -33,7 +34,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "acorda",
@@ -43,7 +45,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "afterglow",
@@ -53,7 +56,8 @@
    "stream_title": "1 Afterglow of the Slow Burn (Vocals)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Afterglow of the Slow Burn (Vocals)"
   },
   {
    "slug": "aftermath",
@@ -63,7 +67,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "afternoon-of-a-faun",
@@ -73,7 +78,8 @@
    "stream_title": "Afternoon",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Afternoon"
   },
   {
    "slug": "against-the-clock",
@@ -83,7 +89,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "ahead-of-the-curve",
@@ -93,7 +100,8 @@
    "stream_title": "Ahead ( for collab )",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Ahead ( for collab )"
   },
   {
    "slug": "air",
@@ -103,7 +111,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "all-i-got",
@@ -113,7 +122,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.667,
-   "mood": null
+   "mood": null,
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "all-night",
@@ -123,7 +133,8 @@
    "stream_title": "1 Drive all night (Vocals)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Drive all night (Vocals)"
   },
   {
    "slug": "almost-right",
@@ -133,7 +144,8 @@
    "stream_title": "AlmostRight",
    "match": "near-title",
    "score": 0.957,
-   "mood": null
+   "mood": null,
+   "display": "AlmostRight"
   },
   {
    "slug": "alone-together",
@@ -143,7 +155,8 @@
    "stream_title": "Zen Garden Sonata Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Zen Garden Sonata (Instrumental)"
   },
   {
    "slug": "alone-together-the-anthem",
@@ -153,7 +166,8 @@
    "stream_title": "Alone",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Alone"
   },
   {
    "slug": "already-dead",
@@ -163,7 +177,8 @@
    "stream_title": "1 Already Out The Door (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.643,
-   "mood": null
+   "mood": null,
+   "display": "Already Out The Door (Instrumental)"
   },
   {
    "slug": "answers-you-never-gave",
@@ -173,7 +188,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "apex",
@@ -183,7 +199,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "apology-i-ll-never-get",
@@ -193,7 +210,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "are-you-serious",
@@ -203,7 +221,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "ashes-to-armor",
@@ -213,7 +232,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "attack-by-fire",
@@ -223,7 +243,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "attack-by-stratagem",
@@ -233,7 +254,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "baba-yaga",
@@ -243,7 +265,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "back-when-i-m-rappin",
@@ -253,7 +276,8 @@
    "stream_title": "1 Hawk on the Block (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "hustle"
+   "mood": "hustle",
+   "display": "Hawk on the Block (Instrumental)"
   },
   {
    "slug": "bald-mountain",
@@ -263,7 +287,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "basement-door",
@@ -273,7 +298,8 @@
    "stream_title": "Basement Door",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Basement Door"
   },
   {
    "slug": "bass-in-my-veins",
@@ -283,7 +309,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "bass-quake",
@@ -293,7 +320,8 @@
    "stream_title": "Want it Get it Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Want it Get it (Instrumental)"
   },
   {
    "slug": "beast-of-your-making",
@@ -303,7 +331,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "been-waiting",
@@ -313,7 +342,8 @@
    "stream_title": "Bleeding Out feat Justin Helmer Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Bleeding Out feat Justin Helmer (Instrumental)"
   },
   {
    "slug": "before-the-march",
@@ -323,7 +353,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "better-off",
@@ -333,7 +364,8 @@
    "stream_title": "Better",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Better"
   },
   {
    "slug": "black-swan",
@@ -343,7 +375,8 @@
    "stream_title": "Black Swan",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Black Swan"
   },
   {
    "slug": "blade-in-the-murk",
@@ -353,7 +386,8 @@
    "stream_title": "3Blade in the Murk",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Blade in the Murk"
   },
   {
    "slug": "bleeding-static",
@@ -363,7 +397,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "blood-and-static",
@@ -373,7 +408,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "blood-in-the-water",
@@ -383,7 +419,8 @@
    "stream_title": "Water (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Water (feat. Justin Helmer)"
   },
   {
    "slug": "blue-danube-dream",
@@ -393,7 +430,8 @@
    "stream_title": "Blue",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Blue"
   },
   {
    "slug": "bones-what-s-left-of-me",
@@ -403,7 +441,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "born-alone",
@@ -413,7 +452,8 @@
    "stream_title": "Alone",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Alone"
   },
   {
    "slug": "born-lonely",
@@ -423,7 +463,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "bot-complainers",
@@ -433,7 +474,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "bounce",
@@ -443,7 +485,8 @@
    "stream_title": "Booty Bounce (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Booty Bounce (feat. Justin Helmer)"
   },
   {
    "slug": "break-the-floor",
@@ -453,7 +496,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "breaker-of-codes",
@@ -463,7 +507,8 @@
    "stream_title": "Breaker of Codes",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Breaker of Codes"
   },
   {
    "slug": "breath-of-the-machine",
@@ -473,7 +518,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "bringer-of-war-bringer-of-joy",
@@ -483,7 +529,8 @@
    "stream_title": "Bringe",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Bringe"
   },
   {
    "slug": "brixton-bully",
@@ -493,7 +540,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "broke",
@@ -503,7 +551,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "near-title",
    "score": 0.909,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "broken-but-bite",
@@ -513,7 +562,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "broken-but-bloodthirsty",
@@ -523,7 +573,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "broken-crown",
@@ -533,7 +584,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "broken-dream",
@@ -543,7 +595,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "broken-from-birth",
@@ -553,7 +606,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "broken-machine",
@@ -563,7 +617,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "burden-you-ain-t",
@@ -573,7 +628,8 @@
    "stream_title": "THE SILENCE - The Burden of the Mask",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE SILENCE - The Burden of the Mask"
   },
   {
    "slug": "buried-alive",
@@ -583,7 +639,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "burn-it-down",
@@ -593,7 +650,8 @@
    "stream_title": "Burn it Down",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Burn it Down"
   },
   {
    "slug": "burn-the-mask",
@@ -603,7 +661,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "burning-out-loud",
@@ -613,7 +672,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "campfire-ghost",
@@ -623,7 +683,8 @@
    "stream_title": "Campfire Ghost",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Campfire Ghost"
   },
   {
    "slug": "can-t-kill-me-twice",
@@ -633,7 +694,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "cancel-the-cancel",
@@ -643,7 +705,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "carbon-based-disaster",
@@ -653,7 +716,8 @@
    "stream_title": "Base",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Base"
   },
   {
    "slug": "carrying-it",
@@ -663,7 +727,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "choppin-up-the-block",
@@ -673,7 +738,8 @@
    "stream_title": "1 Hawk on the Block (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.621,
-   "mood": null
+   "mood": null,
+   "display": "Hawk on the Block (Instrumental)"
   },
   {
    "slug": "chopping-the-old-tree",
@@ -683,7 +749,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "city-lights",
@@ -693,7 +760,8 @@
    "stream_title": "City Lights",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "City Lights"
   },
   {
    "slug": "clair-de-lune",
@@ -703,7 +771,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "clash-of-continents",
@@ -713,7 +782,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "clearer-head",
@@ -723,7 +793,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "cold",
@@ -733,7 +804,8 @@
    "stream_title": "Cold",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Cold"
   },
   {
    "slug": "cold-north",
@@ -743,7 +815,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "cold-steel",
@@ -753,7 +826,8 @@
    "stream_title": "Cold",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Cold"
   },
   {
    "slug": "concrete-kisses",
@@ -763,7 +837,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "constellation-collapse",
@@ -773,7 +848,8 @@
    "stream_title": "3AM POPPIN Beat Stars Instrumental (Mastered with Clear Sky at 100pct)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "AM POPPIN Beat Stars ( (Instrumental)"
   },
   {
    "slug": "cortando-cabezas",
@@ -783,7 +859,8 @@
    "stream_title": "Cortando Cabezas",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Cortando Cabezas"
   },
   {
    "slug": "cosmic-soldier-bringer-of-war",
@@ -793,7 +870,8 @@
    "stream_title": "1 1COSMIC SECRETS (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.714,
-   "mood": null
+   "mood": null,
+   "display": "1COSMIC SECRETS (Instrumental)"
   },
   {
    "slug": "crack-in-the-floorboard",
@@ -803,7 +881,8 @@
    "stream_title": "Kiss Me Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me (Instrumental)"
   },
   {
    "slug": "crash-dummy",
@@ -813,7 +892,8 @@
    "stream_title": "Always Be Mine Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Always Be Mine (Instrumental)"
   },
   {
    "slug": "crooked-teeth",
@@ -823,7 +903,8 @@
    "stream_title": "Teeth",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Teeth"
   },
   {
    "slug": "crown",
@@ -833,7 +914,8 @@
    "stream_title": "Crow",
    "match": "near-title",
    "score": 0.889,
-   "mood": null
+   "mood": null,
+   "display": "Crow"
   },
   {
    "slug": "crown-of-thorns",
@@ -843,7 +925,8 @@
    "stream_title": "Crow",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Crow"
   },
   {
    "slug": "crown-of-thorns-round-2",
@@ -853,7 +936,8 @@
    "stream_title": "Monatomic Gold",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "hustle"
+   "mood": "hustle",
+   "display": "Monatomic Gold"
   },
   {
    "slug": "dance-of-the-damned",
@@ -863,7 +947,8 @@
    "stream_title": "Dance Of The Dammed",
    "match": "near-title",
    "score": 0.933,
-   "mood": null
+   "mood": null,
+   "display": "Dance Of The Dammed"
   },
   {
    "slug": "danse-macabre",
@@ -873,7 +958,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "dawn-of-man",
@@ -883,7 +969,8 @@
    "stream_title": "Dawn of Man",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Dawn of Man"
   },
   {
    "slug": "day-of-wrath",
@@ -893,7 +980,8 @@
    "stream_title": "Warm Up Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Warm Up (Instrumental)"
   },
   {
    "slug": "dead-eyes-walking",
@@ -903,7 +991,8 @@
    "stream_title": "Dead (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Dead (feat. Justin Helmer)"
   },
   {
    "slug": "dead-phone",
@@ -913,7 +1002,8 @@
    "stream_title": "Dead (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Dead (feat. Justin Helmer)"
   },
   {
    "slug": "dead-roses",
@@ -923,7 +1013,8 @@
    "stream_title": "Dead (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Dead (feat. Justin Helmer)"
   },
   {
    "slug": "dead-signal",
@@ -933,7 +1024,8 @@
    "stream_title": "Dead Signal",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Dead Signal"
   },
   {
    "slug": "dead-weight",
@@ -943,7 +1035,8 @@
    "stream_title": "Dead (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Dead (feat. Justin Helmer)"
   },
   {
    "slug": "deep-enough-to-stand",
@@ -953,7 +1046,8 @@
    "stream_title": "11Deep Enough To Stand",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Deep Enough To Stand"
   },
   {
    "slug": "defective-product",
@@ -963,7 +1057,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "depend-on-you-can-t",
@@ -973,7 +1068,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "digital-bliss",
@@ -983,7 +1079,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "doble-cara",
@@ -993,7 +1090,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "don-t-remember-her",
@@ -1003,7 +1101,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "don-t-stop",
@@ -1013,7 +1112,8 @@
    "stream_title": "Voices Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Voices (Instrumental)"
   },
   {
    "slug": "dressing-room",
@@ -1023,7 +1123,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "drifting",
@@ -1033,7 +1134,8 @@
    "stream_title": "19Generate Track DRIFTING ART",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Generate Track DRIFTING ART"
   },
   {
    "slug": "drowning-out-the-noise",
@@ -1043,7 +1145,8 @@
    "stream_title": "Cooked Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Cooked (Instrumental)"
   },
   {
    "slug": "echo-chamber-collapse",
@@ -1053,7 +1156,8 @@
    "stream_title": "Echo",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Echo"
   },
   {
    "slug": "echo-of-your-exit",
@@ -1063,7 +1167,8 @@
    "stream_title": "Echo",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Echo"
   },
   {
    "slug": "empire-of-ashes",
@@ -1073,7 +1178,8 @@
    "stream_title": "Empire (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empire (feat. Justin Helmer)"
   },
   {
    "slug": "empty-chair",
@@ -1083,7 +1189,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "empty-crutch",
@@ -1093,7 +1200,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "empty-like-the-apartment",
@@ -1103,7 +1211,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "empty-profile",
@@ -1113,7 +1222,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "empty-room",
@@ -1123,7 +1233,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "empty-vessels",
@@ -1133,7 +1244,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "endless-loop",
@@ -1143,7 +1255,8 @@
    "stream_title": "Endless Loop",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Endless Loop"
   },
   {
    "slug": "energy",
@@ -1153,7 +1266,8 @@
    "stream_title": "Energy (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Energy (feat. Justin Helmer)"
   },
   {
    "slug": "enough",
@@ -1163,7 +1277,8 @@
    "stream_title": "11Deep Enough To Stand",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Deep Enough To Stand"
   },
   {
    "slug": "eraser",
@@ -1173,7 +1288,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "eternal-winter",
@@ -1183,7 +1299,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "executioner-s-flop",
@@ -1193,7 +1310,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "f33l-something",
@@ -1203,7 +1321,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "fairweather",
@@ -1213,7 +1332,8 @@
    "stream_title": "Weather",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Weather"
   },
   {
    "slug": "fake-love-boulevard",
@@ -1223,7 +1343,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "fake-sun",
@@ -1233,7 +1354,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "falling-up",
@@ -1243,7 +1365,8 @@
    "stream_title": "Want it Get it Instrumental Beat no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Want it Get it (Instrumental)"
   },
   {
    "slug": "family-habits",
@@ -1253,7 +1376,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "fast-fade",
@@ -1263,7 +1387,8 @@
    "stream_title": "FAST FADE. - The Clock s Last Kiss",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "FAST FADE. - The Clock s Last Kiss"
   },
   {
    "slug": "fenrir",
@@ -1273,7 +1398,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "figaro-best-in-the-game",
@@ -1283,7 +1409,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "final-cut",
@@ -1293,7 +1420,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "find-my-way-back",
@@ -1303,7 +1431,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "fire",
@@ -1313,7 +1442,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "first-brick",
@@ -1323,7 +1453,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "flight-of-the-bumblebee-trap-remix",
@@ -1333,7 +1464,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "float",
@@ -1343,7 +1475,8 @@
    "stream_title": "Kiss Me Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me (Instrumental)"
   },
   {
    "slug": "fool-s-gold",
@@ -1353,7 +1486,8 @@
    "stream_title": "Fools Gold",
    "match": "near-title",
    "score": 0.952,
-   "mood": null
+   "mood": null,
+   "display": "Fools Gold"
   },
   {
    "slug": "forge",
@@ -1363,7 +1497,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "forged-in-fire",
@@ -1373,7 +1508,8 @@
    "stream_title": "1 9Stranger in the Frame (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.645,
-   "mood": null
+   "mood": null,
+   "display": "9Stranger in the Frame (Instrumental)"
   },
   {
    "slug": "forget-you-exist",
@@ -1383,7 +1519,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "four-rounds-final-say",
@@ -1393,7 +1530,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "fractured",
@@ -1403,7 +1541,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "freedom-in-the-falling",
@@ -1413,7 +1552,8 @@
    "stream_title": "Freedom ( 63 bpm )",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Freedom ( 63 bpm )"
   },
   {
    "slug": "from-the-ashes",
@@ -1423,7 +1563,8 @@
    "stream_title": "Venom Spitting Viper instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Venom Spitting Viper (Instrumental)"
   },
   {
    "slug": "from-the-bottom",
@@ -1433,7 +1574,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life"
   },
   {
    "slug": "front-porch-light",
@@ -1443,7 +1585,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "frozen-march",
@@ -1453,7 +1596,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "frozen-river",
@@ -1463,7 +1607,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "fuck-em-all",
@@ -1473,7 +1618,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "full-of-tears",
@@ -1483,7 +1629,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "funeral-for-my-old-self",
@@ -1493,7 +1640,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "funeral-for-the-living",
@@ -1503,7 +1651,8 @@
    "stream_title": "Funeral for the Living",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Funeral for the Living"
   },
   {
    "slug": "funeral-of-me",
@@ -1513,7 +1662,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "furious-and-numb",
@@ -1523,7 +1673,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "furia-da-favela",
@@ -1533,7 +1684,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "galloping-ghost",
@@ -1543,7 +1695,8 @@
    "stream_title": "1 GALLOPING GHOST (Vocals)",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "GALLOPING GHOST (Vocals)"
   },
   {
    "slug": "gaslight-glow",
@@ -1553,7 +1706,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "gave-you-my-all",
@@ -1563,7 +1717,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "get-rich-or-get-out",
@@ -1573,7 +1728,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "ghost-in-a-crowded-room",
@@ -1583,7 +1739,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "ghosts-graves",
@@ -1593,7 +1750,8 @@
    "stream_title": "20250324 2212 43.735 Smooth flow Hip Hop Style beat with male uplifting pop rapper vocals seed123 tp0.93 T1.0 rp1.2 maxtk3900 mixed",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "glitch-in-my-chest",
@@ -1603,7 +1761,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "glitch-in-the-deep",
@@ -1613,7 +1772,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "glitch-in-the-heart",
@@ -1623,7 +1783,8 @@
    "stream_title": "Glitch in the Heart",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Glitch in the Heart"
   },
   {
    "slug": "glitch-in-the-wiring",
@@ -1633,7 +1794,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "glitter-and-ash",
@@ -1643,7 +1805,8 @@
    "stream_title": "Glitter",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Glitter"
   },
   {
    "slug": "glitter-and-static",
@@ -1653,7 +1816,8 @@
    "stream_title": "Glitter",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Glitter"
   },
   {
    "slug": "gloria",
@@ -1663,7 +1827,8 @@
    "stream_title": "ENOCHS JOURNEY INSTRUMENTAL (Mastered with Clear Sky at 100pct)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "ENOCHS JOURNEY ( (Instrumental)"
   },
   {
    "slug": "goin-home",
@@ -1673,7 +1838,8 @@
    "stream_title": "Home",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Home"
   },
   {
    "slug": "golden-girl",
@@ -1683,7 +1849,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "good-vibes-only",
@@ -1693,7 +1860,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "good-vibes-only-round-2-the-shadow-and-the-sun",
@@ -1703,7 +1871,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "graduation-day-final-lesson",
@@ -1713,7 +1882,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "grand-march",
@@ -1723,7 +1893,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "gravity",
@@ -1733,7 +1904,8 @@
    "stream_title": "1 11Gravity Built On Sand (Vocals)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "11Gravity Built On Sand (Vocals)"
   },
   {
    "slug": "habanera-love-is-a-rebel",
@@ -1743,7 +1915,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "half-a-heartbeat",
@@ -1753,7 +1926,8 @@
    "stream_title": "Half a Heartbeat",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Half a Heartbeat"
   },
   {
    "slug": "half-love",
@@ -1763,7 +1937,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "half-of-a-man",
@@ -1773,7 +1948,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "hate-fuel",
@@ -1783,7 +1959,8 @@
    "stream_title": "Fuel",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Fuel"
   },
   {
    "slug": "head-held-high",
@@ -1793,7 +1970,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life"
   },
   {
    "slug": "headphones-on-max",
@@ -1803,7 +1981,8 @@
    "stream_title": "Headphones on Max",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Headphones on Max"
   },
   {
    "slug": "headphones-on-max-battle-rap-cut",
@@ -1813,7 +1992,8 @@
    "stream_title": "Headphones on Max",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Headphones on Max"
   },
   {
    "slug": "heartless",
@@ -1823,7 +2003,8 @@
    "stream_title": "Heartless Beat (Mastered with Aurora at 90pct)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Heartless Beat ("
   },
   {
    "slug": "heavy-crown",
@@ -1833,7 +2014,8 @@
    "stream_title": "Crow",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Crow"
   },
   {
    "slug": "heavy-is-the-crown",
@@ -1843,7 +2025,8 @@
    "stream_title": "Crow",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Crow"
   },
   {
    "slug": "heavy-is-the-day",
@@ -1853,7 +2036,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "heavy-is-the-sunshine",
@@ -1863,7 +2047,8 @@
    "stream_title": "Sunshine (feat. Justin Helmer & Grafezzy)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Sunshine (feat. Justin Helmer & Grafezzy)"
   },
   {
    "slug": "heavy-weight",
@@ -1873,7 +2058,8 @@
    "stream_title": "Stay With Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Stay With Me"
   },
   {
    "slug": "higher",
@@ -1883,7 +2069,8 @@
    "stream_title": "Higher ( 65 bpm )",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Higher ( 65 bpm )"
   },
   {
    "slug": "holding-up-the-sky",
@@ -1893,7 +2080,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "hollow-bones",
@@ -1903,7 +2091,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "hollow-hands",
@@ -1913,7 +2102,8 @@
    "stream_title": "Hollow Hands",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Hollow Hands"
   },
   {
    "slug": "hood-ghost",
@@ -1923,7 +2113,8 @@
    "stream_title": "20250324 2212 43.735 Smooth flow Hip Hop Style beat with male uplifting pop rapper vocals seed123 tp0.93 T1.0 rp1.2 maxtk3900 mixed",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "hunted",
@@ -1933,7 +2124,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "hurt-me-proud",
@@ -1943,7 +2135,8 @@
    "stream_title": "Proud",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Proud"
   },
   {
    "slug": "hustle-or-fall",
@@ -1953,7 +2146,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "i-already-won",
@@ -1963,7 +2157,8 @@
    "stream_title": "1 Already Out The Door (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.621,
-   "mood": null
+   "mood": null,
+   "display": "Already Out The Door (Instrumental)"
   },
   {
    "slug": "i-am-the-fire",
@@ -1973,7 +2168,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "i-am-the-ghost",
@@ -1983,7 +2179,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "i-don-t-miss-you",
@@ -1993,7 +2190,8 @@
    "stream_title": "I dont miss you",
    "match": "near-title",
    "score": 0.968,
-   "mood": null
+   "mood": null,
+   "display": "I dont miss you"
   },
   {
    "slug": "i-don-t-remember",
@@ -2003,7 +2201,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "i-m-not-okay-but-i-m-here",
@@ -2013,7 +2212,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "i-m-still-here",
@@ -2023,7 +2223,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "idle-to-overdrive",
@@ -2033,7 +2234,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "impossible",
@@ -2043,7 +2245,8 @@
    "stream_title": "Impossible",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Impossible"
   },
   {
    "slug": "infected-adagio-viral-decay",
@@ -2053,7 +2256,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "inheritance-of-lonely",
@@ -2063,7 +2267,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "internet-girl",
@@ -2073,7 +2278,8 @@
    "stream_title": "Always Be Mine Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Always Be Mine (Instrumental)"
   },
   {
    "slug": "invisible",
@@ -2083,7 +2289,8 @@
    "stream_title": "Invisible (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Invisible (feat. Justin Helmer)"
   },
   {
    "slug": "invisible-blood",
@@ -2093,7 +2300,8 @@
    "stream_title": "Invisible (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Invisible (feat. Justin Helmer)"
   },
   {
    "slug": "iron-heart",
@@ -2103,7 +2311,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "judgment-day",
@@ -2113,7 +2322,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "just-a-face",
@@ -2123,7 +2333,8 @@
    "stream_title": "Face",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Face"
   },
   {
    "slug": "just-existing",
@@ -2133,7 +2344,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "king-of-nothing",
@@ -2143,7 +2355,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "kraken",
@@ -2153,7 +2366,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "last-breath",
@@ -2163,7 +2377,8 @@
    "stream_title": "Last Breath of Sanity",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Last Breath of Sanity"
   },
   {
    "slug": "last-lap",
@@ -2173,7 +2388,8 @@
    "stream_title": "LAST LAP - Unbowed at the Line",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "LAST LAP - Unbowed at the Line"
   },
   {
    "slug": "last-nocturne",
@@ -2183,7 +2399,8 @@
    "stream_title": "Nocturn",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Nocturn"
   },
   {
    "slug": "laying-plans",
@@ -2193,7 +2410,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "left-behind",
@@ -2203,7 +2421,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "legacy-of-one",
@@ -2213,7 +2432,8 @@
    "stream_title": "Legacy",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Legacy"
   },
   {
    "slug": "let-down",
@@ -2223,7 +2443,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "let-go",
@@ -2233,7 +2454,8 @@
    "stream_title": "Don't Let Go",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Don't Let Go"
   },
   {
    "slug": "let-the-rain-fall",
@@ -2243,7 +2465,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "letter-to-my-younger-self",
@@ -2253,7 +2476,8 @@
    "stream_title": "Stay With Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Stay With Me"
   },
   {
    "slug": "lion-s-den",
@@ -2263,7 +2487,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "lonely-at-the-top-self-made",
@@ -2273,7 +2498,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "machine",
@@ -2283,7 +2509,8 @@
    "stream_title": "2Smashing The Machine",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Smashing The Machine"
   },
   {
    "slug": "made-in-your-image",
@@ -2293,7 +2520,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "maneuvering",
@@ -2303,7 +2531,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "mask-off",
@@ -2313,7 +2542,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "medusa",
@@ -2323,7 +2553,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "midnight-ceiling",
@@ -2333,7 +2564,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "minor-key",
@@ -2343,7 +2575,8 @@
    "stream_title": "20251130 1650 00.675 melody minor key piano loop haunting strings seed126 tp0.93 T1.0 rp1.2 maxtk3000 itrack",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "minotaur",
@@ -2353,7 +2586,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "mirror-fracture",
@@ -2363,7 +2597,8 @@
    "stream_title": "Mirror",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Mirror"
   },
   {
    "slug": "mirror-test",
@@ -2373,7 +2608,8 @@
    "stream_title": "Mirror",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Mirror"
   },
   {
    "slug": "mock-the-ashes",
@@ -2383,7 +2619,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "morning-never-came",
@@ -2393,7 +2630,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "mother-s-song",
@@ -2403,7 +2641,8 @@
    "stream_title": "Mothers Song",
    "match": "near-title",
    "score": 0.96,
-   "mood": null
+   "mood": null,
+   "display": "Mothers Song"
   },
   {
    "slug": "mountain-king",
@@ -2413,7 +2652,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "move",
@@ -2423,7 +2663,8 @@
    "stream_title": "Take Me Away Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Take Me Away (Instrumental)"
   },
   {
    "slug": "my-own-worst-enemy",
@@ -2433,7 +2674,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "never-felt-loved",
@@ -2443,7 +2685,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "never-had-a-home",
@@ -2453,7 +2696,8 @@
    "stream_title": "Home",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Home"
   },
   {
    "slug": "never-learned-to-love",
@@ -2463,7 +2707,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "new-skin",
@@ -2473,7 +2718,8 @@
    "stream_title": "Stay With Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Stay With Me"
   },
   {
    "slug": "no-chains",
@@ -2483,7 +2729,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "no-distance-left",
@@ -2493,7 +2740,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "no-emotion",
@@ -2503,7 +2751,8 @@
    "stream_title": "Motion",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Motion"
   },
   {
    "slug": "no-exit",
@@ -2513,7 +2762,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "no-fix",
@@ -2523,7 +2773,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "no-more-heroes",
@@ -2533,7 +2784,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "no-one-came",
@@ -2543,7 +2795,8 @@
    "stream_title": "1 No Lease (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.632,
-   "mood": null
+   "mood": null,
+   "display": "No Lease (Instrumental)"
   },
   {
    "slug": "no-one-left",
@@ -2553,7 +2806,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "no-one-noticed",
@@ -2563,7 +2817,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "no-one-taught-me",
@@ -2573,7 +2828,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "no-one-s-coming",
@@ -2583,7 +2839,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "no-one-s-son",
@@ -2593,7 +2850,8 @@
    "stream_title": "No One s Son",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "No One s Son"
   },
   {
    "slug": "no-plus-one",
@@ -2603,7 +2861,8 @@
    "stream_title": "No Plus One",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "No Plus One"
   },
   {
    "slug": "no-prayer",
@@ -2613,7 +2872,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "no-real-faces",
@@ -2623,7 +2883,8 @@
    "stream_title": "Face",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Face"
   },
   {
    "slug": "no-return",
@@ -2633,7 +2894,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "no-round-two",
@@ -2643,7 +2905,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "no-signal",
@@ -2653,7 +2916,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "no-tomorrow",
@@ -2663,7 +2927,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "no-witness",
@@ -2673,7 +2938,8 @@
    "stream_title": "Thunder Claps beatstars Instrumental 5 HP Karaoke UVR",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Thunder Claps beatstars 5 HP (Instrumental)"
   },
   {
    "slug": "no-witnesses",
@@ -2683,7 +2949,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "no-words",
@@ -2693,7 +2960,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "not-broken-enough",
@@ -2703,7 +2971,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "not-broken-just-untaught",
@@ -2713,7 +2982,8 @@
    "stream_title": "Broken (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Broken (feat. Justin Helmer)"
   },
   {
    "slug": "not-enough-graves",
@@ -2723,7 +2993,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "nothing-left-to-bleed",
@@ -2733,7 +3004,8 @@
    "stream_title": "Nothing Left to Bleed",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Nothing Left to Bleed"
   },
   {
    "slug": "nothing-left-to-give",
@@ -2743,7 +3015,8 @@
    "stream_title": "Nothing Left To Give",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Nothing Left To Give"
   },
   {
    "slug": "nothing-left-to-live",
@@ -2753,7 +3026,8 @@
    "stream_title": "Nothing Left To Give",
    "match": "near-title",
    "score": 0.95,
-   "mood": null
+   "mood": null,
+   "display": "Nothing Left To Give"
   },
   {
    "slug": "nothing-left-to-lose",
@@ -2763,7 +3037,8 @@
    "stream_title": "Nothing Left to Bleed",
    "match": "near-title",
    "score": 0.878,
-   "mood": null
+   "mood": null,
+   "display": "Nothing Left to Bleed"
   },
   {
    "slug": "nothing-left-to-prove",
@@ -2773,7 +3048,8 @@
    "stream_title": "Nothing Left To Give",
    "match": "near-title",
    "score": 0.878,
-   "mood": null
+   "mood": null,
+   "display": "Nothing Left To Give"
   },
   {
    "slug": "nothing-left-to-say",
@@ -2783,7 +3059,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "nothing-left-to-take",
@@ -2793,7 +3070,8 @@
    "stream_title": "Take",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Take"
   },
   {
    "slug": "nowhere-home",
@@ -2803,7 +3081,8 @@
    "stream_title": "Nowhere Home",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Nowhere Home"
   },
   {
    "slug": "numbers",
@@ -2813,7 +3092,8 @@
    "stream_title": "NumberCheck",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "NumberCheck"
   },
   {
    "slug": "okay-right-now",
@@ -2823,7 +3103,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "one-more",
@@ -2833,7 +3114,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "orphan-soul",
@@ -2843,7 +3125,8 @@
    "stream_title": "Soul ( 65 bpm )",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Soul ( 65 bpm )"
   },
   {
    "slug": "over-it-but-not-really",
@@ -2853,7 +3136,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-bed",
    "score": 0.625,
-   "mood": null
+   "mood": null,
+   "display": "Love Life"
   },
   {
    "slug": "own-lane",
@@ -2863,7 +3147,8 @@
    "stream_title": "1 No Lease (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.625,
-   "mood": null
+   "mood": null,
+   "display": "No Lease (Instrumental)"
   },
   {
    "slug": "pecking-order",
@@ -2873,7 +3158,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "pedestal",
@@ -2883,7 +3169,8 @@
    "stream_title": "Pedestal Shattered converted",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Pedestal Shattered converted"
   },
   {
    "slug": "phantom-limb-symphony",
@@ -2893,7 +3180,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "phoenix-ashes",
@@ -2903,7 +3191,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "picking-up-the-pieces",
@@ -2913,7 +3202,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "pipe-organ-nightmare",
@@ -2923,7 +3213,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "porcelain-doll",
@@ -2933,7 +3224,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "predator",
@@ -2943,7 +3235,8 @@
    "stream_title": "Predators in Skin (1)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Predators in Skin (1)"
   },
   {
    "slug": "pretend-i-m-okay",
@@ -2953,7 +3246,8 @@
    "stream_title": "Bedtime Stories Instrumental Melody 88",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Bedtime Stories Melody (Instrumental)"
   },
   {
    "slug": "pretty-poison",
@@ -2963,7 +3257,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "prey",
@@ -2973,7 +3268,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "profit-margin",
@@ -2983,7 +3279,8 @@
    "stream_title": "Monatomic Gold Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "hustle"
+   "mood": "hustle",
+   "display": "Monatomic Gold (Instrumental)"
   },
   {
    "slug": "promethean-glow",
@@ -2993,7 +3290,8 @@
    "stream_title": "prometheanglow",
    "match": "near-title",
    "score": 0.966,
-   "mood": null
+   "mood": null,
+   "display": "prometheanglow"
   },
   {
    "slug": "prototype",
@@ -3003,7 +3301,8 @@
    "stream_title": "Prototype",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Prototype"
   },
   {
    "slug": "rage-in-the-static",
@@ -3013,7 +3312,8 @@
    "stream_title": "THE STATIC - Truth Without The Mask",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE STATIC - Truth Without The Mask"
   },
   {
    "slug": "rampage",
@@ -3023,7 +3323,8 @@
    "stream_title": "Rampage",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Rampage"
   },
   {
    "slug": "rani-of-the-slums",
@@ -3033,7 +3334,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "rappin",
@@ -3043,7 +3345,8 @@
    "stream_title": "Monatomic Gold",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "hustle"
+   "mood": "hustle",
+   "display": "Monatomic Gold"
   },
   {
    "slug": "real-where-are-you",
@@ -3053,7 +3356,8 @@
    "stream_title": "Stay With Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Stay With Me"
   },
   {
    "slug": "relentless",
@@ -3063,7 +3367,8 @@
    "stream_title": "20250221 2014 41.894 Multisyllabic internal rhymes and relentless cadence Defiance against systemic oppression self mythologizing and legacy Aggressive yet introspective blending vulnerability wit",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "return-of-the-savior",
@@ -3073,7 +3378,8 @@
    "stream_title": "The End Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "The End (Instrumental)"
   },
   {
    "slug": "revolutionary",
@@ -3083,7 +3389,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "rewritten",
@@ -3093,7 +3400,8 @@
    "stream_title": "Volcano Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Volcano (Instrumental)"
   },
   {
    "slug": "rot",
@@ -3103,7 +3411,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "rust",
@@ -3113,7 +3422,8 @@
    "stream_title": "Trust",
    "match": "near-title",
    "score": 0.889,
-   "mood": null
+   "mood": null,
+   "display": "Trust"
   },
   {
    "slug": "rust-belt-prayer",
@@ -3123,7 +3433,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "same-ghost",
@@ -3133,7 +3444,8 @@
    "stream_title": "Same Ghost",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Same Ghost"
   },
   {
    "slug": "same-grave-dying-alone-together",
@@ -3143,7 +3455,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "same-sad-song",
@@ -3153,7 +3466,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "savage",
@@ -3163,7 +3477,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "save-me-from-me",
@@ -3173,7 +3488,8 @@
    "stream_title": "Heartfelt Melodies",
    "match": "near-title",
    "score": 0.875,
-   "mood": null
+   "mood": null,
+   "display": "Heartfelt Melodies"
   },
   {
    "slug": "saving-them",
@@ -3183,7 +3499,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "saving-them-round-2-the-service-is-closed",
@@ -3193,7 +3510,8 @@
    "stream_title": "Service Is Closed",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Service Is Closed"
   },
   {
    "slug": "scars-i-can-t-erase",
@@ -3203,7 +3521,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "scream-into-the-void",
@@ -3213,7 +3532,8 @@
    "stream_title": "Screams in the Void",
    "match": "near-title",
    "score": 0.903,
-   "mood": null
+   "mood": null,
+   "display": "Screams in the Void"
   },
   {
    "slug": "scrolling-past-midnight",
@@ -3223,7 +3543,8 @@
    "stream_title": "Monatomic Gold",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "hustle"
+   "mood": "hustle",
+   "display": "Monatomic Gold"
   },
   {
    "slug": "second-shift",
@@ -3233,7 +3554,8 @@
    "stream_title": "OVERTIME - The Second Shift",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "OVERTIME - The Second Shift"
   },
   {
    "slug": "see-you-soon",
@@ -3243,7 +3565,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "self-care",
@@ -3253,7 +3576,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "self-destruct",
@@ -3263,7 +3587,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life"
   },
   {
    "slug": "self-raised",
@@ -3273,7 +3598,8 @@
    "stream_title": "Black Out Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Black Out (Instrumental)"
   },
   {
    "slug": "serenade-in-red",
@@ -3283,7 +3609,8 @@
    "stream_title": "Serenade in Red",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Serenade in Red"
   },
   {
    "slug": "shatter-choir",
@@ -3293,7 +3620,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "she-shoulda-stayed-quiet",
@@ -3303,7 +3631,8 @@
    "stream_title": "Stay",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Stay"
   },
   {
    "slug": "shut-your-mouth",
@@ -3313,7 +3642,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "sick",
@@ -3323,7 +3653,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "silence-is-violent",
@@ -3333,7 +3664,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "silhouette",
@@ -3343,7 +3675,8 @@
    "stream_title": "SILHOUETTE",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "SILHOUETTE"
   },
   {
    "slug": "siren-s-test",
@@ -3353,7 +3686,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "sister-in-the-struggle",
@@ -3363,7 +3697,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "slow-burn",
@@ -3373,7 +3708,8 @@
    "stream_title": "1 Afterglow of the Slow Burn (Vocals)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Afterglow of the Slow Burn (Vocals)"
   },
   {
    "slug": "smokestack",
@@ -3383,7 +3719,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "snake-charmer",
@@ -3393,7 +3730,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "snake-oil",
@@ -3403,7 +3741,8 @@
    "stream_title": "Priceless Souls",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Priceless Souls"
   },
   {
    "slug": "snap",
@@ -3413,7 +3752,8 @@
    "stream_title": "Snap",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Snap"
   },
   {
    "slug": "solo-shift",
@@ -3423,7 +3763,8 @@
    "stream_title": "Solo Shift",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Solo Shift"
   },
   {
    "slug": "somebody-that-i-used-to-know",
@@ -3433,7 +3774,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "somebody-s-anybody",
@@ -3443,7 +3785,8 @@
    "stream_title": "Somebody s Anybody",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Somebody s Anybody"
   },
   {
    "slug": "somebody-s-anything",
@@ -3453,7 +3796,8 @@
    "stream_title": "Stay With Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Stay With Me"
   },
   {
    "slug": "someday-s-never-coming",
@@ -3463,7 +3807,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "someone-i-can-t-be",
@@ -3473,7 +3818,8 @@
    "stream_title": "Goodbye Baby Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Goodbye Baby (Instrumental)"
   },
   {
    "slug": "something-missing",
@@ -3483,7 +3829,8 @@
    "stream_title": "Missing",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Missing"
   },
   {
    "slug": "something-s-missing",
@@ -3493,7 +3840,8 @@
    "stream_title": "Missing",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Missing"
   },
   {
    "slug": "somewhere-between",
@@ -3503,7 +3851,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "sorry-your-favorite-word",
@@ -3513,7 +3862,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "spark",
@@ -3523,7 +3873,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "star-crossed",
@@ -3533,7 +3884,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "static-heart",
@@ -3543,7 +3895,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "static-in-the-signal",
@@ -3553,7 +3906,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "static-pulse",
@@ -3563,7 +3917,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "steel-and-velvet",
@@ -3573,7 +3928,8 @@
    "stream_title": "Steel and Velvet",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Steel and Velvet"
   },
   {
    "slug": "still-a-man",
@@ -3583,7 +3939,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "still-breathing",
@@ -3593,7 +3950,8 @@
    "stream_title": "6Still Breathing",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Still Breathing"
   },
   {
    "slug": "still-got-it",
@@ -3603,7 +3961,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "still-here",
@@ -3613,7 +3972,8 @@
    "stream_title": "Still Here For Now",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Still Here For Now"
   },
   {
    "slug": "still-hollow",
@@ -3623,7 +3983,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "still-standing",
@@ -3633,7 +3994,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "still-talking",
@@ -3643,7 +4005,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "storyteller",
@@ -3653,7 +4016,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "sunday-dinner",
@@ -3663,7 +4027,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "sunshine-state-of-mind",
@@ -3673,7 +4038,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "survivor-s-guilt",
@@ -3683,7 +4049,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "survivor-s-pace",
@@ -3693,7 +4060,8 @@
    "stream_title": "SURVIVOR'S PACE",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "SURVIVOR'S PACE"
   },
   {
    "slug": "system-failure",
@@ -3703,7 +4071,8 @@
    "stream_title": "Got Got Got Eww Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Got Got Got Eww (Instrumental)"
   },
   {
    "slug": "system-reboot",
@@ -3713,7 +4082,8 @@
    "stream_title": "REBOOT",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "REBOOT"
   },
   {
    "slug": "tactical-dispositions",
@@ -3723,7 +4093,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "talk-back",
@@ -3733,7 +4104,8 @@
    "stream_title": "15Walls Talk Back",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Walls Talk Back"
   },
   {
    "slug": "talking-to-my-toaster",
@@ -3743,7 +4115,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "terrain",
@@ -3753,7 +4126,8 @@
    "stream_title": "9Terrain Never Lies",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Terrain Never Lies"
   },
   {
    "slug": "terrible-people",
@@ -3763,7 +4137,8 @@
    "stream_title": "Terrible People",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Terrible People"
   },
   {
    "slug": "the-abyss-of-souls",
@@ -3773,7 +4148,8 @@
    "stream_title": "Abyss",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Abyss"
   },
   {
    "slug": "the-accord",
@@ -3783,7 +4159,8 @@
    "stream_title": "Book II3A The Aftermath of the Accord Stone",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Book II3A The Aftermath of the Accord Stone"
   },
   {
    "slug": "the-accusation-of-the-elements",
@@ -3793,7 +4170,8 @@
    "stream_title": "14ACCUSATION OF THE ELEMENTS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "ACCUSATION OF THE ELEMENTS"
   },
   {
    "slug": "the-army-on-the-march",
@@ -3803,7 +4181,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "the-ascent",
@@ -3813,7 +4192,8 @@
    "stream_title": "Crashed Out Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Crashed Out (Instrumental)"
   },
   {
    "slug": "the-beast",
@@ -3823,7 +4203,8 @@
    "stream_title": "4567 Beat",
    "match": "near-title",
    "score": 0.889,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-beast-inside",
@@ -3833,7 +4214,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "the-becoming",
@@ -3843,7 +4225,8 @@
    "stream_title": "THE BECOMING - Carnival of Suffering",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE BECOMING - Carnival of Suffering"
   },
   {
    "slug": "the-binding",
@@ -3853,7 +4236,8 @@
    "stream_title": "5BINDING",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "BINDING"
   },
   {
    "slug": "the-binding-of-the-deep",
@@ -3863,7 +4247,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "the-blessing-after-the-flood",
@@ -3873,7 +4258,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "the-blessing-and-the-curse",
@@ -3883,7 +4269,8 @@
    "stream_title": "1BLESSING AND THE CURSE",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "BLESSING AND THE CURSE"
   },
   {
    "slug": "the-book-of-destruction",
@@ -3893,7 +4280,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-book-of-life",
@@ -3903,7 +4291,8 @@
    "stream_title": "Tree of Life",
    "match": "instrumental-bed",
    "score": 0.667,
-   "mood": null
+   "mood": null,
+   "display": "Tree of Life"
   },
   {
    "slug": "the-book-of-light",
@@ -3913,7 +4302,8 @@
    "stream_title": "17THE BOOK OF LIGHT",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE BOOK OF LIGHT"
   },
   {
    "slug": "the-books-of-the-record",
@@ -3923,7 +4313,8 @@
    "stream_title": "books",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "books"
   },
   {
    "slug": "the-break",
@@ -3933,7 +4324,8 @@
    "stream_title": "THE BREAK - The Honesty I Craved",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE BREAK - The Honesty I Craved"
   },
   {
    "slug": "the-burning",
@@ -3943,7 +4335,8 @@
    "stream_title": "Burning",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Burning"
   },
   {
    "slug": "the-cage",
@@ -3953,7 +4346,8 @@
    "stream_title": "2Punching The Cage",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Punching The Cage"
   },
   {
    "slug": "the-call-of-the-chosen",
@@ -3963,7 +4357,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-cathedral",
@@ -3973,7 +4368,8 @@
    "stream_title": "THE CATHEDRAL - Architecture of My Peace",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE CATHEDRAL - Architecture of My Peace"
   },
   {
    "slug": "the-cathedral-rebuilt",
@@ -3983,7 +4379,8 @@
    "stream_title": "THE CATHEDRAL REBUILT - Blueprints in the Bones",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-celestial-oath",
@@ -3993,7 +4390,8 @@
    "stream_title": "9CELESTIAL OATH",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "CELESTIAL OATH"
   },
   {
    "slug": "the-chasm-widens",
@@ -4003,7 +4401,8 @@
    "stream_title": "5CHASM WIDENS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "CHASM WIDENS"
   },
   {
    "slug": "the-children-of-the-stars",
@@ -4013,7 +4412,8 @@
    "stream_title": "2THE CHILDREN OF THE STARS",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE CHILDREN OF THE STARS"
   },
   {
    "slug": "the-cleansing",
@@ -4023,7 +4423,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-cold-inside",
@@ -4033,7 +4434,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-con",
@@ -4043,7 +4445,8 @@
    "stream_title": "21Scars On The Concrete",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Scars On The Concrete"
   },
   {
    "slug": "the-cosmic-clock",
@@ -4053,7 +4456,8 @@
    "stream_title": "1COSMIC CLOCK",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "COSMIC CLOCK"
   },
   {
    "slug": "the-cosmic-secrets",
@@ -4063,7 +4467,8 @@
    "stream_title": "Cosmic Secrets",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Cosmic Secrets"
   },
   {
    "slug": "the-cosmic-tour",
@@ -4073,7 +4478,8 @@
    "stream_title": "Cosmic Tour",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Cosmic Tour"
   },
   {
    "slug": "the-cosmic-tour-ii-the-edges-of-light",
@@ -4083,7 +4489,8 @@
    "stream_title": "Cosmic Tour",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Cosmic Tour"
   },
   {
    "slug": "the-cost-of-armor",
@@ -4093,7 +4500,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-crowd",
@@ -4103,7 +4511,8 @@
    "stream_title": "Crow",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Crow"
   },
   {
    "slug": "the-crumb",
@@ -4113,7 +4522,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "the-cry-of-the-oppressed",
@@ -4123,7 +4533,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-cure",
@@ -4133,7 +4544,8 @@
    "stream_title": "9Crew is the Cure",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Crew is the Cure"
   },
   {
    "slug": "the-cycle-breaks-here",
@@ -4143,7 +4555,8 @@
    "stream_title": "1CYCLE BREAKS HERE",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "CYCLE BREAKS HERE"
   },
   {
    "slug": "the-debt-you-owe",
@@ -4153,7 +4566,8 @@
    "stream_title": "The Debt You Owe",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Debt You Owe"
   },
   {
    "slug": "the-deepest-prison",
@@ -4163,7 +4577,8 @@
    "stream_title": "3Deepest Prison",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Deepest Prison"
   },
   {
    "slug": "the-deepest-prison-ii",
@@ -4173,7 +4588,8 @@
    "stream_title": "30DEEPEST PRISON II",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "DEEPEST PRISON II"
   },
   {
    "slug": "the-descent",
@@ -4183,7 +4599,8 @@
    "stream_title": "THE DESCENT - Where the Ground Ends",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE DESCENT - Where the Ground Ends"
   },
   {
    "slug": "the-disconnect",
@@ -4193,7 +4610,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-door-you-left-open",
@@ -4203,7 +4621,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life"
   },
   {
    "slug": "the-dream-of-the-end",
@@ -4213,7 +4632,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "the-dwelling-of-the-elect",
@@ -4223,7 +4643,8 @@
    "stream_title": "39DWELLING OF THE ELECT",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "DWELLING OF THE ELECT"
   },
   {
    "slug": "the-earth-remembers",
@@ -4233,7 +4654,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "the-echo",
@@ -4243,7 +4665,8 @@
    "stream_title": "THE Echo — Buried Heartbeat",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Echo — Buried Heartbeat"
   },
   {
    "slug": "the-echo-chamber",
@@ -4253,7 +4676,8 @@
    "stream_title": "Echo",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Echo"
   },
   {
    "slug": "the-edge-of-everything",
@@ -4263,7 +4687,8 @@
    "stream_title": "Love Life BeatStars Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life BeatStars (Instrumental)"
   },
   {
    "slug": "the-elect-one",
@@ -4273,7 +4698,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-ember",
@@ -4283,7 +4709,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-emergence",
@@ -4293,7 +4720,8 @@
    "stream_title": "THE EMERGENCE - Weaponizing the Wound",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE EMERGENCE - Weaponizing the Wound"
   },
   {
    "slug": "the-empty-nest",
@@ -4303,7 +4731,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "the-empty-road",
@@ -4313,7 +4742,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "the-enemy",
@@ -4323,7 +4753,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-epilogue-the-end-of-all-things",
@@ -4333,7 +4764,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-eternal-inheritance",
@@ -4343,7 +4775,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "the-eternal-return",
@@ -4353,7 +4786,8 @@
    "stream_title": "Eternal",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Eternal"
   },
   {
    "slug": "the-eternal-verdict",
@@ -4363,7 +4797,8 @@
    "stream_title": "Eternal",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Eternal"
   },
   {
    "slug": "the-fadeout",
@@ -4373,7 +4808,8 @@
    "stream_title": "THE Fadeout — Rest Between Movements",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Fadeout — Rest Between Movements"
   },
   {
    "slug": "the-feed",
@@ -4383,7 +4819,8 @@
    "stream_title": "4Severing the Feed",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Severing the Feed"
   },
   {
    "slug": "the-final-exhortation",
@@ -4393,7 +4830,8 @@
    "stream_title": "Always Be Mine Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Always Be Mine (Instrumental)"
   },
   {
    "slug": "the-final-resurrection",
@@ -4403,7 +4841,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-final-seal",
@@ -4413,7 +4852,8 @@
    "stream_title": "11FINAL SEAL",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "FINAL SEAL"
   },
   {
    "slug": "the-final-separation",
@@ -4423,7 +4863,8 @@
    "stream_title": "16FINAL SEPARATION",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "FINAL SEPARATION"
   },
   {
    "slug": "the-final-woe",
@@ -4433,7 +4874,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-fire-of-the-sun",
@@ -4443,7 +4885,8 @@
    "stream_title": "Country Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Country (Instrumental)"
   },
   {
    "slug": "the-flatline",
@@ -4453,7 +4896,8 @@
    "stream_title": "THE Flatline — The Absence of War",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Flatline — The Absence of War"
   },
   {
    "slug": "the-flock",
@@ -4463,7 +4907,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-flood",
@@ -4473,7 +4918,8 @@
    "stream_title": "Flood",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Flood"
   },
   {
    "slug": "the-flood-decree",
@@ -4483,7 +4929,8 @@
    "stream_title": "Flood",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Flood"
   },
   {
    "slug": "the-four-faces-of-the-throne",
@@ -4493,7 +4940,8 @@
    "stream_title": "Face",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Face"
   },
   {
    "slug": "the-four-who-stood",
@@ -4503,7 +4951,8 @@
    "stream_title": "9FOUR WHO STOOD",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "FOUR WHO STOOD"
   },
   {
    "slug": "the-fractured-tower",
@@ -4513,7 +4962,8 @@
    "stream_title": "ENOCHS JOURNEY INSTRUMENTAL (Mastered with Clear Sky at 100pct)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "ENOCHS JOURNEY ( (Instrumental)"
   },
   {
    "slug": "the-fragrant-trees",
@@ -4523,7 +4973,8 @@
    "stream_title": "31FRAGRANT TREES",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "FRAGRANT TREES"
   },
   {
    "slug": "the-frequency-remains",
@@ -4533,7 +4984,8 @@
    "stream_title": "Frequency",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Frequency"
   },
   {
    "slug": "the-funeral",
@@ -4543,7 +4995,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "the-garden-of-souls",
@@ -4553,7 +5006,8 @@
    "stream_title": "1 21GARDEN OF SOULS (No Noise)",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "21GARDEN OF SOULS (No Noise)"
   },
   {
    "slug": "the-ghost",
@@ -4563,7 +5017,8 @@
    "stream_title": "0Track THE GHOST ARTIST",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Track THE GHOST ARTIST"
   },
   {
    "slug": "the-ghost-of-what-i-gave",
@@ -4573,7 +5028,8 @@
    "stream_title": "20250324 2212 43.735 Smooth flow Hip Hop Style beat with male uplifting pop rapper vocals seed123 tp0.93 T1.0 rp1.2 maxtk3900 mixed",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-giver",
@@ -4583,7 +5039,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "the-grave-you-dug",
@@ -4593,7 +5050,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-great-divide",
@@ -4603,7 +5061,8 @@
    "stream_title": "Great Divide",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Great Divide"
   },
   {
    "slug": "the-great-gulf",
@@ -4613,7 +5072,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "the-grind",
@@ -4623,7 +5083,8 @@
    "stream_title": "Grid",
    "match": "near-title",
    "score": 0.889,
-   "mood": null
+   "mood": null,
+   "display": "Grid"
   },
   {
    "slug": "the-ground-i-came-from",
@@ -4633,7 +5094,8 @@
    "stream_title": "10Ground I Came From",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Ground I Came From"
   },
   {
    "slug": "the-hand-that-made-me",
@@ -4643,7 +5105,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "the-hand-you-held",
@@ -4653,7 +5116,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-head-of-days",
@@ -4663,7 +5127,8 @@
    "stream_title": "3HEAD OF DAYS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "HEAD OF DAYS"
   },
   {
    "slug": "the-headline",
@@ -4673,7 +5138,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "the-hollow",
@@ -4683,7 +5149,8 @@
    "stream_title": "The Hollow Clientele",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Hollow Clientele"
   },
   {
    "slug": "the-house-that-silence-built",
@@ -4693,7 +5160,8 @@
    "stream_title": "The House That Silence Built",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The House That Silence Built"
   },
   {
    "slug": "the-hunted",
@@ -4703,7 +5171,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-inheritance",
@@ -4713,7 +5182,8 @@
    "stream_title": "1 Inherited Wreckage (Instrumental)",
    "match": "instrumental-bed",
    "score": 0.621,
-   "mood": null
+   "mood": null,
+   "display": "Inherited Wreckage (Instrumental)"
   },
   {
    "slug": "the-inheritance-of-light",
@@ -4723,7 +5193,8 @@
    "stream_title": "43INHERITANCE OF LIGHT",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "INHERITANCE OF LIGHT"
   },
   {
    "slug": "the-inheritance-of-the-poor",
@@ -4733,7 +5204,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-invisible-man",
@@ -4743,7 +5215,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-iron-rod",
@@ -4753,7 +5226,8 @@
    "stream_title": "10IRON ROD",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "IRON ROD"
   },
   {
    "slug": "the-judgment-of-the-hosts",
@@ -4763,7 +5237,8 @@
    "stream_title": "15JUDGMENT OF THE HOSTS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "JUDGMENT OF THE HOSTS"
   },
   {
    "slug": "the-judgment-of-the-kings",
@@ -4773,7 +5248,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "the-kingdom-of-the-elect",
@@ -4783,7 +5259,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-last-drop",
@@ -4793,7 +5270,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-last-page",
@@ -4803,7 +5281,8 @@
    "stream_title": "13Last Page",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Last Page"
   },
   {
    "slug": "the-last-real-thing",
@@ -4813,7 +5292,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-last-spark",
@@ -4823,7 +5303,8 @@
    "stream_title": "THE Last Spark — Cupping The Ember",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Last Spark — Cupping The Ember"
   },
   {
    "slug": "the-last-time",
@@ -4833,7 +5314,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-last-time-i-reached-out",
@@ -4843,7 +5325,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-last-war",
@@ -4853,7 +5336,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "the-last-word",
@@ -4863,7 +5347,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-leech",
@@ -4873,7 +5358,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life"
   },
   {
    "slug": "the-legacy",
@@ -4883,7 +5369,8 @@
    "stream_title": "Legacy",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Legacy"
   },
   {
    "slug": "the-lie-you-lived",
@@ -4893,7 +5380,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-lonely-light",
@@ -4903,7 +5391,8 @@
    "stream_title": "Kiss Me Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me (Instrumental)"
   },
   {
    "slug": "the-machine",
@@ -4913,7 +5402,8 @@
    "stream_title": "2Smashing The Machine",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Smashing The Machine"
   },
   {
    "slug": "the-mark",
@@ -4923,7 +5413,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "the-mask",
@@ -4933,7 +5424,8 @@
    "stream_title": "THE SILENCE - The Burden of the Mask",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE SILENCE - The Burden of the Mask"
   },
   {
    "slug": "the-mask-i-wore",
@@ -4943,7 +5435,8 @@
    "stream_title": "1 9Stranger in the Frame (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "9Stranger in the Frame (Instrumental)"
   },
   {
    "slug": "the-maze-i-built",
@@ -4953,7 +5446,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "the-mirror",
@@ -4963,7 +5457,8 @@
    "stream_title": "THE MIRROR - The Monster I Shaped",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE MIRROR - The Monster I Shaped"
   },
   {
    "slug": "the-mirror-speaks",
@@ -4973,7 +5468,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "the-moon-s-cycle",
@@ -4983,7 +5479,8 @@
    "stream_title": "The Moon",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Moon"
   },
   {
    "slug": "the-morning-after",
@@ -4993,7 +5490,8 @@
    "stream_title": "THE Morning After — The Routine Dance",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Morning After — The Routine Dance"
   },
   {
    "slug": "the-mountain-of-precious-stones",
@@ -5003,7 +5501,8 @@
    "stream_title": "26MOUNTAIN OF PRECIOUS STONES",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "MOUNTAIN OF PRECIOUS STONES"
   },
   {
    "slug": "the-mountains-of-metal",
@@ -5013,7 +5512,8 @@
    "stream_title": "36MOUNTAINS OF METAL",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "MOUNTAINS OF METAL"
   },
   {
    "slug": "the-names-of-the-seven",
@@ -5023,7 +5523,8 @@
    "stream_title": "ENOCHS JOURNEY INSTRUMENTAL (Mastered with Clear Sky at 100pct)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "ENOCHS JOURNEY ( (Instrumental)"
   },
   {
    "slug": "the-naming-of-the-children",
@@ -5033,7 +5534,8 @@
    "stream_title": "34NAMING OF THE CHILDREN",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "NAMING OF THE CHILDREN"
   },
   {
    "slug": "the-new-beginning",
@@ -5043,7 +5545,8 @@
    "stream_title": "33New Beginning",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "New Beginning"
   },
   {
    "slug": "the-new-creation",
@@ -5053,7 +5556,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "the-new-creation-edm-version",
@@ -5063,7 +5567,8 @@
    "stream_title": "Creation",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Creation"
   },
   {
    "slug": "the-nine-situations",
@@ -5073,7 +5578,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-noise",
@@ -5083,7 +5589,8 @@
    "stream_title": "I Just Miss The Noise",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "I Just Miss The Noise"
   },
   {
    "slug": "the-noise-and-the-void",
@@ -5093,7 +5600,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-ones-who-never-called",
@@ -5103,7 +5611,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-other-me",
@@ -5113,7 +5622,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-other-side-of-the-bed",
@@ -5123,7 +5633,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-outsider",
@@ -5133,7 +5644,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-parasocial-prison",
@@ -5143,7 +5655,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-phone-that-never-rings",
@@ -5153,7 +5666,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-pillars-of-the-throne",
@@ -5163,7 +5677,8 @@
    "stream_title": "Throne",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Throne"
   },
   {
    "slug": "the-portals-of-the-ends",
@@ -5173,7 +5688,8 @@
    "stream_title": "Hidden",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Hidden"
   },
   {
    "slug": "the-prayer-for-the-remnant",
@@ -5183,7 +5699,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-prison-of-the-stars",
@@ -5193,7 +5710,8 @@
    "stream_title": "Stars",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Stars"
   },
   {
    "slug": "the-quiet-part",
@@ -5203,7 +5721,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-quiet-scream",
@@ -5213,7 +5732,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "the-race",
@@ -5223,7 +5743,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "the-ramparts-rise",
@@ -5233,7 +5754,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "the-rat",
@@ -5243,7 +5765,8 @@
    "stream_title": "The Rat s Ledger",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Rat s Ledger"
   },
   {
    "slug": "the-real-thing",
@@ -5253,7 +5776,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-reaper",
@@ -5263,7 +5787,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-reckoning",
@@ -5273,7 +5798,8 @@
    "stream_title": "The Ledger At The Door",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Ledger At The Door"
   },
   {
    "slug": "the-record-of-the-fallen",
@@ -5283,7 +5809,8 @@
    "stream_title": "7RECORD OF THE FALLEN",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "RECORD OF THE FALLEN"
   },
   {
    "slug": "the-resurrection-and-the-end",
@@ -5293,7 +5820,8 @@
    "stream_title": "1 1COSMIC SECRETS (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "1COSMIC SECRETS (Instrumental)"
   },
   {
    "slug": "the-revelation-of-wisdom",
@@ -5303,7 +5831,8 @@
    "stream_title": "42REVELATION OF WISDOM",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "REVELATION OF WISDOM"
   },
   {
    "slug": "the-rising",
@@ -5313,7 +5842,8 @@
    "stream_title": "9RISING",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "RISING"
   },
   {
    "slug": "the-ritual",
@@ -5323,7 +5853,8 @@
    "stream_title": "THE RITUAL - The Second Cup",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE RITUAL - The Second Cup"
   },
   {
    "slug": "the-road-to-nowhere",
@@ -5333,7 +5864,8 @@
    "stream_title": "Road to Know Where",
    "match": "near-title",
    "score": 0.909,
-   "mood": null
+   "mood": null,
+   "display": "Road to Know Where"
   },
   {
    "slug": "the-room-where-you-used-to-be",
@@ -5343,7 +5875,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-scales-of-judgment",
@@ -5353,7 +5886,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-script",
@@ -5363,7 +5897,8 @@
    "stream_title": "The Script We Memorized",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Script We Memorized"
   },
   {
    "slug": "the-scroll",
@@ -5373,7 +5908,8 @@
    "stream_title": "A Leech Upon The Scroll",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "A Leech Upon The Scroll"
   },
   {
    "slug": "the-seal-of-eternity",
@@ -5383,7 +5919,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-sealing-of-the-righteous",
@@ -5393,7 +5930,8 @@
    "stream_title": "12SEALING OF THE RIGHTEOUS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "SEALING OF THE RIGHTEOUS"
   },
   {
    "slug": "the-second-law",
@@ -5403,7 +5941,8 @@
    "stream_title": "3AM POPPIN Beat Stars Instrumental (Mastered with Clear Sky at 100pct)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "AM POPPIN Beat Stars ( (Instrumental)"
   },
   {
    "slug": "the-second-mug",
@@ -5413,7 +5952,8 @@
    "stream_title": "THE SECOND MUG - Coffee and My Dead",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE SECOND MUG - Coffee and My Dead"
   },
   {
    "slug": "the-sentence-of-the-fallen",
@@ -5423,7 +5963,8 @@
    "stream_title": "8SENTENCE OF THE FALLEN",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "SENTENCE OF THE FALLEN"
   },
   {
    "slug": "the-sentence-of-the-watchers",
@@ -5433,7 +5974,8 @@
    "stream_title": "5Sentence of the Watchers",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Sentence of the Watchers"
   },
   {
    "slug": "the-serpent",
@@ -5443,7 +5985,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "the-settlement",
@@ -5453,7 +5996,8 @@
    "stream_title": "Settle",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Settle"
   },
   {
    "slug": "the-seven-hills",
@@ -5463,7 +6007,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-seven-mountains-of-punishment",
@@ -5473,7 +6018,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "the-seven-valleys",
@@ -5483,7 +6029,8 @@
    "stream_title": "32Seven Valleys",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Seven Valleys"
   },
   {
    "slug": "the-seven-winds",
@@ -5493,7 +6040,8 @@
    "stream_title": "24SEVEN WINDS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "SEVEN WINDS"
   },
   {
    "slug": "the-shattered-throne",
@@ -5503,7 +6051,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-shepherd-s-appointment",
@@ -5513,7 +6062,8 @@
    "stream_title": "Thunder Claps beatstars Instrumental MDX23C 8KFFT InstVoc HQ 2",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Thunder Claps beatstars (Instrumental)"
   },
   {
    "slug": "the-shepherd-s-sacrifice",
@@ -5523,7 +6073,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-shepherd-s-strike",
@@ -5533,7 +6084,8 @@
    "stream_title": "Retaliation Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Retaliation (Instrumental)"
   },
   {
    "slug": "the-shift",
@@ -5543,7 +6095,8 @@
    "stream_title": "THE Shift — Digging Standing Still",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Shift — Digging Standing Still"
   },
   {
    "slug": "the-shining-hosts",
@@ -5553,7 +6106,8 @@
    "stream_title": "3SHINING HOSTS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "SHINING HOSTS"
   },
   {
    "slug": "the-sign-of-the-covenant",
@@ -5563,7 +6117,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-signal",
@@ -5573,7 +6128,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "the-silence",
@@ -5583,7 +6139,8 @@
    "stream_title": "THE Silence — Two Ghosts In A House",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Silence — Two Ghosts In A House"
   },
   {
    "slug": "the-silence-spoke",
@@ -5593,7 +6150,8 @@
    "stream_title": "THE Silence — Two Ghosts In A House",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Silence — Two Ghosts In A House"
   },
   {
    "slug": "the-simple-things",
@@ -5603,7 +6161,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-snow-white-cow",
@@ -5613,7 +6172,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-speed-that-kills-round-2",
@@ -5623,7 +6183,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-spirits-of-the-giants",
@@ -5633,7 +6194,8 @@
    "stream_title": "Reversed Spirits",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Reversed Spirits"
   },
   {
    "slug": "the-stars-that-failed",
@@ -5643,7 +6205,8 @@
    "stream_title": "Stars",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Stars"
   },
   {
    "slug": "the-stars-that-kept-their-course",
@@ -5653,7 +6216,8 @@
    "stream_title": "Stars",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Stars"
   },
   {
    "slug": "the-stars-withdraw",
@@ -5663,7 +6227,8 @@
    "stream_title": "Stars",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Stars"
   },
   {
    "slug": "the-static",
@@ -5673,7 +6238,8 @@
    "stream_title": "THE STATIC - Truth Without The Mask",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE STATIC - Truth Without The Mask"
   },
   {
    "slug": "the-static-inside",
@@ -5683,7 +6249,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-strong-one",
@@ -5693,7 +6260,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-sun-s-gate",
@@ -5703,7 +6271,8 @@
    "stream_title": "17Beyond the Sun s Gate",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Beyond the Sun s Gate"
   },
   {
    "slug": "the-swipe",
@@ -5713,7 +6282,8 @@
    "stream_title": "Love Life",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Love Life"
   },
   {
    "slug": "the-third-law",
@@ -5723,7 +6293,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-throne-of-glory",
@@ -5733,7 +6304,8 @@
    "stream_title": "Throne",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Throne"
   },
   {
    "slug": "the-tree-of-judgment",
@@ -5743,7 +6315,8 @@
    "stream_title": "25TREE OF JUDGMENT",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "TREE OF JUDGMENT"
   },
   {
    "slug": "the-use-of-spies",
@@ -5753,7 +6326,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "the-user-manual",
@@ -5763,7 +6337,8 @@
    "stream_title": "Everything I Do For You Beat Star Instrumental no tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "Instrumental bed (fits this lyric)"
   },
   {
    "slug": "the-valley-of-fire",
@@ -5773,7 +6348,8 @@
    "stream_title": "11VALLEY OF FIRE",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "VALLEY OF FIRE"
   },
   {
    "slug": "the-valley-of-kings",
@@ -5783,7 +6359,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "the-vanished",
@@ -5793,7 +6370,8 @@
    "stream_title": "THE Vanished — The Temporary Man",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Vanished — The Temporary Man"
   },
   {
    "slug": "the-vision-of-the-beasts",
@@ -5803,7 +6381,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "the-voices",
@@ -5813,7 +6392,8 @@
    "stream_title": "Voices",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Voices"
   },
   {
    "slug": "the-void",
@@ -5823,7 +6403,8 @@
    "stream_title": "Echoes in the Void",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Echoes in the Void"
   },
   {
    "slug": "the-wall",
@@ -5833,7 +6414,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "the-war-room",
@@ -5843,7 +6425,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "the-watcher",
@@ -5853,7 +6436,8 @@
    "stream_title": "5Sentence of the Watchers",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Sentence of the Watchers"
   },
   {
    "slug": "the-weight-on-your-shoulder",
@@ -5863,7 +6447,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "the-whisper",
@@ -5873,7 +6458,8 @@
    "stream_title": "THE WHISPER - Gravitys Reminder",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE WHISPER - Gravitys Reminder"
   },
   {
    "slug": "the-winds-of-the-quarters",
@@ -5883,7 +6469,8 @@
    "stream_title": "11WINDS OF THE QUARTERS",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "WINDS OF THE QUARTERS"
   },
   {
    "slug": "the-witness-of-the-voiceless",
@@ -5893,7 +6480,8 @@
    "stream_title": "The Witness",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "The Witness"
   },
   {
    "slug": "the-wrath-of-the-elect",
@@ -5903,7 +6491,8 @@
    "stream_title": "4WRATH OF THE ELECT",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "WRATH OF THE ELECT"
   },
   {
    "slug": "the-written-plea",
@@ -5913,7 +6502,8 @@
    "stream_title": "4WRITTEN PLEA",
    "match": "title",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "WRITTEN PLEA"
   },
   {
    "slug": "these-empty-rooms",
@@ -5923,7 +6513,8 @@
    "stream_title": "Empty (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Empty (feat. Justin Helmer)"
   },
   {
    "slug": "they-came-from-the-sky",
@@ -5933,7 +6524,8 @@
    "stream_title": "They Came From The Sky",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "They Came From The Sky"
   },
   {
    "slug": "this-kind-of-love",
@@ -5943,7 +6535,8 @@
    "stream_title": "Warm Up Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Warm Up (Instrumental)"
   },
   {
    "slug": "throne-of-graves",
@@ -5953,7 +6546,8 @@
    "stream_title": "Throne",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Throne"
   },
   {
    "slug": "tired",
@@ -5963,7 +6557,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "tired-8-billion-strangers",
@@ -5973,7 +6568,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "two-different-rivers",
@@ -5983,7 +6579,8 @@
    "stream_title": "Different",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Different"
   },
   {
    "slug": "unbroken",
@@ -5993,7 +6590,8 @@
    "stream_title": "1 Unbroken Decree (Vocals)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Unbroken Decree (Vocals)"
   },
   {
    "slug": "unchained",
@@ -6003,7 +6601,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "under-lights",
@@ -6013,7 +6612,8 @@
    "stream_title": "I heard you Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "I heard you (Instrumental)"
   },
   {
    "slug": "under-the-lights",
@@ -6023,7 +6623,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "unearth-me",
@@ -6033,7 +6634,8 @@
    "stream_title": "Earth",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Earth"
   },
   {
    "slug": "unfiltered",
@@ -6043,7 +6645,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "unseen",
@@ -6053,7 +6656,8 @@
    "stream_title": "9Unseen Life",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Unseen Life"
   },
   {
    "slug": "unspoken",
@@ -6063,7 +6667,8 @@
    "stream_title": "14City Unspoken",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "City Unspoken"
   },
   {
    "slug": "untouchable",
@@ -6073,7 +6678,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "valkyrie-descent",
@@ -6083,7 +6689,8 @@
    "stream_title": "VALKYRIE DESCENT",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "VALKYRIE DESCENT"
   },
   {
    "slug": "variation-in-tactics",
@@ -6093,7 +6700,8 @@
    "stream_title": "Tactics",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Tactics"
   },
   {
    "slug": "vein-choir",
@@ -6103,7 +6711,8 @@
    "stream_title": "This Will Kill Me Beat Stars Instrumental No tag",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "This Will Kill Me Beat Stars (Instrumental)"
   },
   {
    "slug": "velvet-rope",
@@ -6113,7 +6722,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "venom",
@@ -6123,7 +6733,8 @@
    "stream_title": "Venom",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Venom"
   },
   {
    "slug": "vent",
@@ -6133,7 +6744,8 @@
    "stream_title": "Vent",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Vent"
   },
   {
    "slug": "virtual-assassin",
@@ -6143,7 +6755,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "void",
@@ -6153,7 +6766,8 @@
    "stream_title": "VOIDS ( 62 bpm )",
    "match": "near-title",
    "score": 0.889,
-   "mood": null
+   "mood": null,
+   "display": "VOIDS ( 62 bpm )"
   },
   {
    "slug": "waging-war",
@@ -6163,7 +6777,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "walked-out-the-back",
@@ -6173,7 +6788,8 @@
    "stream_title": "Walked Out The Back",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Walked Out The Back"
   },
   {
    "slug": "walking-graveyard",
@@ -6183,7 +6799,8 @@
    "stream_title": "King (feat. Justin Helmer)",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "King (feat. Justin Helmer)"
   },
   {
    "slug": "wallpaper-man",
@@ -6193,7 +6810,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "war-on-myself",
@@ -6203,7 +6821,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   },
   {
    "slug": "weak-points-and-strong",
@@ -6213,7 +6832,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "weekend-love",
@@ -6223,7 +6843,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "west-coast-fraud",
@@ -6233,7 +6854,8 @@
    "stream_title": "Coast",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Coast"
   },
   {
    "slug": "what-i-built-from-the-dust",
@@ -6243,7 +6865,8 @@
    "stream_title": "Stay With Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Stay With Me"
   },
   {
    "slug": "what-love-left",
@@ -6253,7 +6876,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "what-my-father-gave-me",
@@ -6263,7 +6887,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "what-the-dark-made",
@@ -6273,7 +6898,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "what-the-silence-cost",
@@ -6283,7 +6909,8 @@
    "stream_title": "THE Silence — Two Ghosts In A House",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "THE Silence — Two Ghosts In A House"
   },
   {
    "slug": "where-were-you",
@@ -6293,7 +6920,8 @@
    "stream_title": "1 GALLOPING GHOST (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "GALLOPING GHOST (Instrumental)"
   },
   {
    "slug": "who-s-driving",
@@ -6303,7 +6931,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "wild-hunt",
@@ -6313,7 +6942,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "wildfire",
@@ -6323,7 +6953,8 @@
    "stream_title": "After the Wildfire",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "After the Wildfire"
   },
   {
    "slug": "wildflower",
@@ -6333,7 +6964,8 @@
    "stream_title": "Kiss Me",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "love"
+   "mood": "love",
+   "display": "Kiss Me"
   },
   {
    "slug": "wilted-requiem",
@@ -6343,7 +6975,8 @@
    "stream_title": "Requiem",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Requiem"
   },
   {
    "slug": "woe-to-the-earth",
@@ -6353,7 +6986,8 @@
    "stream_title": "Earth",
    "match": "existing",
    "score": 1.0,
-   "mood": null
+   "mood": null,
+   "display": "Earth"
   },
   {
    "slug": "woe-to-the-hard-hearted",
@@ -6363,7 +6997,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "woe-to-the-idol-makers",
@@ -6373,7 +7008,8 @@
    "stream_title": "Thunder Claps beatstars Instrumental UVR MDX NET Inst full 292",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "Thunder Claps beatstars (Instrumental)"
   },
   {
    "slug": "woe-to-the-murmurers",
@@ -6383,7 +7019,8 @@
    "stream_title": "1 Monster They Made (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "dark"
+   "mood": "dark",
+   "display": "Monster They Made (Instrumental)"
   },
   {
    "slug": "woe-to-the-rich",
@@ -6393,7 +7030,8 @@
    "stream_title": "Fury Instrumental Beat",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Fury (Instrumental)"
   },
   {
    "slug": "you-don-t-want-this",
@@ -6403,7 +7041,8 @@
    "stream_title": "Deserve my Hate 1 Memos Instrumental MDX23C D1581",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Deserve my Hate 1 Memos (Instrumental)"
   },
   {
    "slug": "you-made-me",
@@ -6413,7 +7052,8 @@
    "stream_title": "Burn it Down",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Burn it Down"
   },
   {
    "slug": "you-made-me-this",
@@ -6423,7 +7063,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "your-funeral",
@@ -6433,7 +7074,8 @@
    "stream_title": "1 Turning Broken Wheels (1) (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "Turning Broken Wheels (1) (Instrumental)"
   },
   {
    "slug": "your-god",
@@ -6443,7 +7085,8 @@
    "stream_title": "1 1COSMIC SECRETS (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "cosmic"
+   "mood": "cosmic",
+   "display": "1COSMIC SECRETS (Instrumental)"
   },
   {
    "slug": "your-replacement",
@@ -6453,7 +7096,8 @@
    "stream_title": "I heard you Instrumental",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "neutral"
+   "mood": "neutral",
+   "display": "I heard you (Instrumental)"
   },
   {
    "slug": "your-words-mean-nothing",
@@ -6463,7 +7107,8 @@
    "stream_title": "1 The Cold Heart Routine (Instrumental)",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "melancholy"
+   "mood": "melancholy",
+   "display": "The Cold Heart Routine (Instrumental)"
   },
   {
    "slug": "yup-i-m-back",
@@ -6473,7 +7118,8 @@
    "stream_title": "Smash Heads Dirty Instrumental model bs roformer ep 317 sdr 12",
    "match": "instrumental-fit",
    "score": null,
-   "mood": "war"
+   "mood": "war",
+   "display": "Smash Heads Dirty (Instrumental)"
   }
  ]
 }
