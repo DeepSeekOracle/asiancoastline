@@ -312,10 +312,60 @@
     const smEl = document.getElementById("stat-m");
     if (sn) sn.textContent = String(songs.length);
     if (smEl) smEl.textContent = String(mapped.length);
+    paintHighlight();
     paint();
   });
   q.addEventListener("input", paint);
   window.addEventListener("hashchange", paint);
+
+  function lyricLines(song) {
+    return (song.lyrics || "").split("\n").map(function (l) {
+      return l.trim();
+    }).filter(function (l) {
+      if (!l || l.charAt(0) === "[") return false;
+      if (/^(EXCAVATIONPRO|KENZIE JADE|YUKI|NOVA RAYNE|DOBLE FILO)\.?$/i.test(l)) return false;
+      if (l.length < 24 || l.length > 150) return false;
+      if (/https?:|style:|gemini|thought for/i.test(l)) return false;
+      return true;
+    });
+  }
+
+  function pickHighlight(avoid) {
+    const pool = songs.filter(function (s) {
+      return s.slug !== avoid && lyricLines(s).length > 0;
+    });
+    const song = pool[Math.floor(Math.random() * pool.length)] || songs[0];
+    const lines = lyricLines(song);
+    if (!lines.length) return { song: song, text: song.title };
+    const i = Math.floor(Math.random() * lines.length);
+    let text = lines[i];
+    if (lines[i + 1] && (text + " " + lines[i + 1]).length < 170) {
+      text += " " + lines[i + 1];
+    }
+    return { song: song, text: text };
+  }
+
+  function paintHighlight(forceNew) {
+    const quoteEl = document.getElementById("vault-quote");
+    const citeEl = document.getElementById("vault-cite");
+    const linkEl = document.getElementById("vault-link");
+    if (!quoteEl || !songs.length) return;
+    const last = sessionStorage.getItem("vaultHighlightSlug") || "";
+    const pick = pickHighlight(forceNew || last ? last : "");
+    quoteEl.textContent = pick.text;
+    citeEl.textContent = pick.song.title + (pick.song.album ? " · " + pick.song.album : "");
+    linkEl.href = "#" + pick.song.slug;
+    sessionStorage.setItem("vaultHighlightSlug", pick.song.slug);
+  }
+
+  const shuffleBtn = document.getElementById("vault-shuffle");
+  if (shuffleBtn) {
+    shuffleBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      paintHighlight(true);
+    });
+  }
 
   const gate = document.getElementById("gate");
   const gatePass = document.getElementById("gate-pass");
