@@ -1,7 +1,7 @@
 {
   "signature": "Δ9Φ963-PUBLIC-MUSIC-STREAM-v1",
   "artist": "Excavationpro",
-  "generated_at": "2026-10-01T01:55:34.445022+00:00",
+  "generated_at": "2026-10-04T23:54:41.061677+00:00",
   "bitrate": "160k",
   "stream_dir": "I:\\E Drive\\MUSIC_VAULT\\public_stream",
   "stats": {
@@ -13,7 +13,7 @@
     "total_stream_gb": 41.613,
     "remote_streams": 10762,
     "playlist_missing_remote": 0,
-    "playlist_tracks": 11011,
+    "playlist_tracks": 11044,
     "last_ingest": {
       "utc": "2026-07-28T15:37:40.802878+00:00",
       "added_or_updated": 12,
@@ -148372,6 +148372,598 @@
       "artist": "Excavationpro",
       "moniker": "",
       "added_utc": "2026-10-01T01:53:05.183087+00:00"
+    },
+    {
+      "sha256": "7f1b2a8393b38cdc28b1bfbeb05115a85795a391b6a55256374ed01f7ffd2c2c",
+      "title": "Bones And Bass",
+      "aliases": [
+        "Bones And Bass",
+        "Bones_And_Bass"
+      ],
+      "isrcs": [],
+      "size": 4326936,
+      "stream_file": "7f1b2a8393b38cdc28b1bfbeb05115a85795a391b6a55256374ed01f7ffd2c2c.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\7f\\7f1b2a8393b38cdc28b1bfbeb05115a85795a391b6a55256374ed01f7ffd2c2c.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/7f/7f1b2a8393b38cdc28b1bfbeb05115a85795a391b6a55256374ed01f7ffd2c2c.mp3",
+      "hf_path": "stream/7f/7f1b2a8393b38cdc28b1bfbeb05115a85795a391b6a55256374ed01f7ffd2c2c.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:37.839587+00:00"
+    },
+    {
+      "sha256": "6576af1935e7463d44917989e6cfbbd059c0002a7ebbabe83023756b1183f986",
+      "title": "Colors Twice As Bright",
+      "aliases": [
+        "Colors Twice As Bright",
+        "Colors_Twice_As_Bright"
+      ],
+      "isrcs": [],
+      "size": 4303741,
+      "stream_file": "6576af1935e7463d44917989e6cfbbd059c0002a7ebbabe83023756b1183f986.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\65\\6576af1935e7463d44917989e6cfbbd059c0002a7ebbabe83023756b1183f986.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/65/6576af1935e7463d44917989e6cfbbd059c0002a7ebbabe83023756b1183f986.mp3",
+      "hf_path": "stream/65/6576af1935e7463d44917989e6cfbbd059c0002a7ebbabe83023756b1183f986.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:37.939272+00:00"
+    },
+    {
+      "sha256": "5b0c7148795ca97db85d9cedfabe28f7152bd09ba0efabac7008ec61f7a5cc0f",
+      "title": "Dance With The Ghost",
+      "aliases": [
+        "Dance With The Ghost",
+        "Dance_With_The_Ghost"
+      ],
+      "isrcs": [],
+      "size": 4366435,
+      "stream_file": "5b0c7148795ca97db85d9cedfabe28f7152bd09ba0efabac7008ec61f7a5cc0f.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\5b\\5b0c7148795ca97db85d9cedfabe28f7152bd09ba0efabac7008ec61f7a5cc0f.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/5b/5b0c7148795ca97db85d9cedfabe28f7152bd09ba0efabac7008ec61f7a5cc0f.mp3",
+      "hf_path": "stream/5b/5b0c7148795ca97db85d9cedfabe28f7152bd09ba0efabac7008ec61f7a5cc0f.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:38.104017+00:00"
+    },
+    {
+      "sha256": "0e1a3aa75cd3f99d8b24442d02c833d82cbe1b844a3d44390ad05a344e498bc9",
+      "title": "Exactly Where I Need",
+      "aliases": [
+        "Exactly Where I Need",
+        "Exactly_Where_I_Need"
+      ],
+      "isrcs": [],
+      "size": 3870526,
+      "stream_file": "0e1a3aa75cd3f99d8b24442d02c833d82cbe1b844a3d44390ad05a344e498bc9.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\0e\\0e1a3aa75cd3f99d8b24442d02c833d82cbe1b844a3d44390ad05a344e498bc9.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/0e/0e1a3aa75cd3f99d8b24442d02c833d82cbe1b844a3d44390ad05a344e498bc9.mp3",
+      "hf_path": "stream/0e/0e1a3aa75cd3f99d8b24442d02c833d82cbe1b844a3d44390ad05a344e498bc9.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:38.251373+00:00"
+    },
+    {
+      "sha256": "4afa0563644d09946c02bb77cca0fcbb41a32de3123f3f4684d81da87f39a6c1",
+      "title": "Just Here Inside The Sound",
+      "aliases": [
+        "Just Here Inside The Sound",
+        "Just_Here_Inside_The_Sound"
+      ],
+      "isrcs": [],
+      "size": 3962686,
+      "stream_file": "4afa0563644d09946c02bb77cca0fcbb41a32de3123f3f4684d81da87f39a6c1.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\4a\\4afa0563644d09946c02bb77cca0fcbb41a32de3123f3f4684d81da87f39a6c1.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/4a/4afa0563644d09946c02bb77cca0fcbb41a32de3123f3f4684d81da87f39a6c1.mp3",
+      "hf_path": "stream/4a/4afa0563644d09946c02bb77cca0fcbb41a32de3123f3f4684d81da87f39a6c1.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:38.405520+00:00"
+    },
+    {
+      "sha256": "99fd11d186d4e238dd2b4dc20f2ea3d29ca5e7521e983bd68c71049290f4fdef",
+      "title": "Let It Move My Hands",
+      "aliases": [
+        "Let It Move My Hands",
+        "Let_It_Move_My_Hands"
+      ],
+      "isrcs": [],
+      "size": 3421011,
+      "stream_file": "99fd11d186d4e238dd2b4dc20f2ea3d29ca5e7521e983bd68c71049290f4fdef.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\99\\99fd11d186d4e238dd2b4dc20f2ea3d29ca5e7521e983bd68c71049290f4fdef.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/99/99fd11d186d4e238dd2b4dc20f2ea3d29ca5e7521e983bd68c71049290f4fdef.mp3",
+      "hf_path": "stream/99/99fd11d186d4e238dd2b4dc20f2ea3d29ca5e7521e983bd68c71049290f4fdef.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:38.565544+00:00"
+    },
+    {
+      "sha256": "eb31548f11fb19282edda80eaad23a92e9a330d7cb7de0efcd36a9ce28f0e576",
+      "title": "The Ghost Feels Right",
+      "aliases": [
+        "The Ghost Feels Right",
+        "The_Ghost_Feels_Right"
+      ],
+      "isrcs": [],
+      "size": 3917547,
+      "stream_file": "eb31548f11fb19282edda80eaad23a92e9a330d7cb7de0efcd36a9ce28f0e576.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\eb\\eb31548f11fb19282edda80eaad23a92e9a330d7cb7de0efcd36a9ce28f0e576.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/eb/eb31548f11fb19282edda80eaad23a92e9a330d7cb7de0efcd36a9ce28f0e576.mp3",
+      "hf_path": "stream/eb/eb31548f11fb19282edda80eaad23a92e9a330d7cb7de0efcd36a9ce28f0e576.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:38.723721+00:00"
+    },
+    {
+      "sha256": "281f1102202c0e9e863647acb5573591d2d34eeffd5d0ff699c358cc32c6f580",
+      "title": "The Rhythm Knows",
+      "aliases": [
+        "The Rhythm Knows",
+        "The_Rhythm_Knows"
+      ],
+      "isrcs": [],
+      "size": 4299352,
+      "stream_file": "281f1102202c0e9e863647acb5573591d2d34eeffd5d0ff699c358cc32c6f580.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\28\\281f1102202c0e9e863647acb5573591d2d34eeffd5d0ff699c358cc32c6f580.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/28/281f1102202c0e9e863647acb5573591d2d34eeffd5d0ff699c358cc32c6f580.mp3",
+      "hf_path": "stream/28/281f1102202c0e9e863647acb5573591d2d34eeffd5d0ff699c358cc32c6f580.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:38.893843+00:00"
+    },
+    {
+      "sha256": "7767f8b4d72233ec37a0bf4111418b0493f047784352709693fa9e2518383ea0",
+      "title": "The Swaying Floor",
+      "aliases": [
+        "The Swaying Floor",
+        "The_Swaying_Floor"
+      ],
+      "isrcs": [],
+      "size": 4218477,
+      "stream_file": "7767f8b4d72233ec37a0bf4111418b0493f047784352709693fa9e2518383ea0.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\77\\7767f8b4d72233ec37a0bf4111418b0493f047784352709693fa9e2518383ea0.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/77/7767f8b4d72233ec37a0bf4111418b0493f047784352709693fa9e2518383ea0.mp3",
+      "hf_path": "stream/77/7767f8b4d72233ec37a0bf4111418b0493f047784352709693fa9e2518383ea0.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:39.106794+00:00"
+    },
+    {
+      "sha256": "5a4a08d0c00299a36e751b0ba21adcfcca60d08c547f81ad9b12cbcae53fadb0",
+      "title": "Underneath the Skin",
+      "aliases": [
+        "Underneath the Skin",
+        "Underneath_the_Skin"
+      ],
+      "isrcs": [],
+      "size": 4185249,
+      "stream_file": "5a4a08d0c00299a36e751b0ba21adcfcca60d08c547f81ad9b12cbcae53fadb0.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\5a\\5a4a08d0c00299a36e751b0ba21adcfcca60d08c547f81ad9b12cbcae53fadb0.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/5a/5a4a08d0c00299a36e751b0ba21adcfcca60d08c547f81ad9b12cbcae53fadb0.mp3",
+      "hf_path": "stream/5a/5a4a08d0c00299a36e751b0ba21adcfcca60d08c547f81ad9b12cbcae53fadb0.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:39.309993+00:00"
+    },
+    {
+      "sha256": "e92c1ac60ccfce4111134ff1cd741311dd7ec9ba42fe0cc311970b586be09c72",
+      "title": "Until the Sun Comes Up",
+      "aliases": [
+        "Until the Sun Comes Up",
+        "Until_the_Sun_Comes_Up"
+      ],
+      "isrcs": [],
+      "size": 4372704,
+      "stream_file": "e92c1ac60ccfce4111134ff1cd741311dd7ec9ba42fe0cc311970b586be09c72.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\e9\\e92c1ac60ccfce4111134ff1cd741311dd7ec9ba42fe0cc311970b586be09c72.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/e9/e92c1ac60ccfce4111134ff1cd741311dd7ec9ba42fe0cc311970b586be09c72.mp3",
+      "hf_path": "stream/e9/e92c1ac60ccfce4111134ff1cd741311dd7ec9ba42fe0cc311970b586be09c72.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:39.474927+00:00"
+    },
+    {
+      "sha256": "99a719869a803af190664609df8deeb8d6324c99fa9cd31211412e0f0e874435",
+      "title": "Waiting to Feel Again",
+      "aliases": [
+        "Waiting to Feel Again",
+        "Waiting_to_Feel_Again"
+      ],
+      "isrcs": [],
+      "size": 3822879,
+      "stream_file": "99a719869a803af190664609df8deeb8d6324c99fa9cd31211412e0f0e874435.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\99\\99a719869a803af190664609df8deeb8d6324c99fa9cd31211412e0f0e874435.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/99/99a719869a803af190664609df8deeb8d6324c99fa9cd31211412e0f0e874435.mp3",
+      "hf_path": "stream/99/99a719869a803af190664609df8deeb8d6324c99fa9cd31211412e0f0e874435.mp3",
+      "album": "Dance Shill",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:52:39.682269+00:00"
+    },
+    {
+      "sha256": "5f5dc3503199b9ffd670386fffb4b72238b456fcd2790973f4fce63388ca8a11",
+      "title": "Bones in the Dark",
+      "aliases": [
+        "Bones in the Dark",
+        "Bones_in_the_Dark"
+      ],
+      "isrcs": [],
+      "size": 4284931,
+      "stream_file": "5f5dc3503199b9ffd670386fffb4b72238b456fcd2790973f4fce63388ca8a11.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\5f\\5f5dc3503199b9ffd670386fffb4b72238b456fcd2790973f4fce63388ca8a11.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/5f/5f5dc3503199b9ffd670386fffb4b72238b456fcd2790973f4fce63388ca8a11.mp3",
+      "hf_path": "stream/5f/5f5dc3503199b9ffd670386fffb4b72238b456fcd2790973f4fce63388ca8a11.mp3",
+      "album": "Night Frequencies",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:31.546957+00:00"
+    },
+    {
+      "sha256": "b44e23e1974bc625a4dfa031c1aa048de1b4eb9a83536a1c80810981e4d54b08",
+      "title": "Burning Veins",
+      "aliases": [
+        "Burning Veins",
+        "Burning_Veins"
+      ],
+      "isrcs": [],
+      "size": 4351386,
+      "stream_file": "b44e23e1974bc625a4dfa031c1aa048de1b4eb9a83536a1c80810981e4d54b08.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\b4\\b44e23e1974bc625a4dfa031c1aa048de1b4eb9a83536a1c80810981e4d54b08.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/b4/b44e23e1974bc625a4dfa031c1aa048de1b4eb9a83536a1c80810981e4d54b08.mp3",
+      "hf_path": "stream/b4/b44e23e1974bc625a4dfa031c1aa048de1b4eb9a83536a1c80810981e4d54b08.mp3",
+      "album": "Night Frequencies",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:31.887970+00:00"
+    },
+    {
+      "sha256": "64aaa24be680f9685008dc20adbc89ddfb43aa5d36b2f51856b3f660085102e3",
+      "title": "Chained To The Night",
+      "aliases": [
+        "Chained To The Night",
+        "Chained_To_The_Night"
+      ],
+      "isrcs": [],
+      "size": 4239791,
+      "stream_file": "64aaa24be680f9685008dc20adbc89ddfb43aa5d36b2f51856b3f660085102e3.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\64\\64aaa24be680f9685008dc20adbc89ddfb43aa5d36b2f51856b3f660085102e3.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/64/64aaa24be680f9685008dc20adbc89ddfb43aa5d36b2f51856b3f660085102e3.mp3",
+      "hf_path": "stream/64/64aaa24be680f9685008dc20adbc89ddfb43aa5d36b2f51856b3f660085102e3.mp3",
+      "album": "Night Frequencies",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:32.102446+00:00"
+    },
+    {
+      "sha256": "9776bf813dda12b0905af5a1b9705534bd1dea98d6b32dd8fa1dca458c701e3a",
+      "title": "Chains Down",
+      "aliases": [
+        "Chains Down",
+        "Chains_Down"
+      ],
+      "isrcs": [],
+      "size": 3106913,
+      "stream_file": "9776bf813dda12b0905af5a1b9705534bd1dea98d6b32dd8fa1dca458c701e3a.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\97\\9776bf813dda12b0905af5a1b9705534bd1dea98d6b32dd8fa1dca458c701e3a.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/97/9776bf813dda12b0905af5a1b9705534bd1dea98d6b32dd8fa1dca458c701e3a.mp3",
+      "hf_path": "stream/97/9776bf813dda12b0905af5a1b9705534bd1dea98d6b32dd8fa1dca458c701e3a.mp3",
+      "album": "Night Frequencies",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:32.268409+00:00"
+    },
+    {
+      "sha256": "9d9a508d09ddf9cdd8c3aabd68a00d6bb03ffa973fba96eb6faeffb633eb2104",
+      "title": "Every Breath Is A Prayer",
+      "aliases": [
+        "Every Breath Is A Prayer",
+        "Every_Breath_Is_A_Prayer"
+      ],
+      "isrcs": [],
+      "size": 3095001,
+      "stream_file": "9d9a508d09ddf9cdd8c3aabd68a00d6bb03ffa973fba96eb6faeffb633eb2104.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\9d\\9d9a508d09ddf9cdd8c3aabd68a00d6bb03ffa973fba96eb6faeffb633eb2104.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/9d/9d9a508d09ddf9cdd8c3aabd68a00d6bb03ffa973fba96eb6faeffb633eb2104.mp3",
+      "hf_path": "stream/9d/9d9a508d09ddf9cdd8c3aabd68a00d6bb03ffa973fba96eb6faeffb633eb2104.mp3",
+      "album": "Night Frequencies",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:32.567233+00:00"
+    },
+    {
+      "sha256": "e73edcb6a170266647d754ff9f646463773e3d74e1246992da6b0e6fc715830d",
+      "title": "Prayer in the Air",
+      "aliases": [
+        "Prayer in the Air",
+        "Prayer_in_the_Air"
+      ],
+      "isrcs": [],
+      "size": 2999079,
+      "stream_file": "e73edcb6a170266647d754ff9f646463773e3d74e1246992da6b0e6fc715830d.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\e7\\e73edcb6a170266647d754ff9f646463773e3d74e1246992da6b0e6fc715830d.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/e7/e73edcb6a170266647d754ff9f646463773e3d74e1246992da6b0e6fc715830d.mp3",
+      "hf_path": "stream/e7/e73edcb6a170266647d754ff9f646463773e3d74e1246992da6b0e6fc715830d.mp3",
+      "album": "Night Frequencies",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:32.768182+00:00"
+    },
+    {
+      "sha256": "ae49330479ea3c470ea7c35fc97b3419ef936bc33a3fb3963740077611b81760",
+      "title": "I Lit The Match",
+      "aliases": [
+        "I Lit The Match",
+        "I_Lit_The_Match"
+      ],
+      "isrcs": [],
+      "size": 4382736,
+      "stream_file": "ae49330479ea3c470ea7c35fc97b3419ef936bc33a3fb3963740077611b81760.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\ae\\ae49330479ea3c470ea7c35fc97b3419ef936bc33a3fb3963740077611b81760.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/ae/ae49330479ea3c470ea7c35fc97b3419ef936bc33a3fb3963740077611b81760.mp3",
+      "hf_path": "stream/ae/ae49330479ea3c470ea7c35fc97b3419ef936bc33a3fb3963740077611b81760.mp3",
+      "album": "Listen Let Go",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:51.299673+00:00"
+    },
+    {
+      "sha256": "66bc4e6a51c746f2e27f4f8385e91c9eacf7559287eefd896b6bc10b14abd903",
+      "title": "Stranger in My Skin",
+      "aliases": [
+        "Stranger in My Skin",
+        "Stranger_in_My_Skin"
+      ],
+      "isrcs": [],
+      "size": 4026635,
+      "stream_file": "66bc4e6a51c746f2e27f4f8385e91c9eacf7559287eefd896b6bc10b14abd903.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\66\\66bc4e6a51c746f2e27f4f8385e91c9eacf7559287eefd896b6bc10b14abd903.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/66/66bc4e6a51c746f2e27f4f8385e91c9eacf7559287eefd896b6bc10b14abd903.mp3",
+      "hf_path": "stream/66/66bc4e6a51c746f2e27f4f8385e91c9eacf7559287eefd896b6bc10b14abd903.mp3",
+      "album": "Listen Let Go",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:51.632743+00:00"
+    },
+    {
+      "sha256": "f73aba64bea25aa4ad4a8fb6dc5e83b56716016f1d4386dc095a9953b3a54157",
+      "title": "The Ice Age of Damage",
+      "aliases": [
+        "The Ice Age of Damage",
+        "The_Ice_Age_of_Damage"
+      ],
+      "isrcs": [],
+      "size": 4082433,
+      "stream_file": "f73aba64bea25aa4ad4a8fb6dc5e83b56716016f1d4386dc095a9953b3a54157.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\f7\\f73aba64bea25aa4ad4a8fb6dc5e83b56716016f1d4386dc095a9953b3a54157.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/f7/f73aba64bea25aa4ad4a8fb6dc5e83b56716016f1d4386dc095a9953b3a54157.mp3",
+      "hf_path": "stream/f7/f73aba64bea25aa4ad4a8fb6dc5e83b56716016f1d4386dc095a9953b3a54157.mp3",
+      "album": "Listen Let Go",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:52.212312+00:00"
+    },
+    {
+      "sha256": "f5ab27e48bbdbd06ba30262b3d34506826e5d7263ec651095b6f5c11cc72457e",
+      "title": "The Nothing You Left",
+      "aliases": [
+        "The Nothing You Left",
+        "The_Nothing_You_Left"
+      ],
+      "isrcs": [],
+      "size": 4013469,
+      "stream_file": "f5ab27e48bbdbd06ba30262b3d34506826e5d7263ec651095b6f5c11cc72457e.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\f5\\f5ab27e48bbdbd06ba30262b3d34506826e5d7263ec651095b6f5c11cc72457e.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/f5/f5ab27e48bbdbd06ba30262b3d34506826e5d7263ec651095b6f5c11cc72457e.mp3",
+      "hf_path": "stream/f5/f5ab27e48bbdbd06ba30262b3d34506826e5d7263ec651095b6f5c11cc72457e.mp3",
+      "album": "Listen Let Go",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:52.370346+00:00"
+    },
+    {
+      "sha256": "1f0f73a847a0a00167bdd7d9c82ac82361529a4daa5feb1963be2885146ddfac",
+      "title": "The Winter You Left",
+      "aliases": [
+        "The Winter You Left",
+        "The_Winter_You_Left"
+      ],
+      "isrcs": [],
+      "size": 4032277,
+      "stream_file": "1f0f73a847a0a00167bdd7d9c82ac82361529a4daa5feb1963be2885146ddfac.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\1f\\1f0f73a847a0a00167bdd7d9c82ac82361529a4daa5feb1963be2885146ddfac.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/1f/1f0f73a847a0a00167bdd7d9c82ac82361529a4daa5feb1963be2885146ddfac.mp3",
+      "hf_path": "stream/1f/1f0f73a847a0a00167bdd7d9c82ac82361529a4daa5feb1963be2885146ddfac.mp3",
+      "album": "Listen Let Go",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:52.551395+00:00"
+    },
+    {
+      "sha256": "112a1dfc564f0cd75a09d0b59064642b802cac6a1d2590615ece56f9f2eb281d",
+      "title": "The World is Soft and Wide",
+      "aliases": [
+        "The World is Soft and Wide",
+        "The_World_is_Soft_and_Wide"
+      ],
+      "isrcs": [],
+      "size": 4235406,
+      "stream_file": "112a1dfc564f0cd75a09d0b59064642b802cac6a1d2590615ece56f9f2eb281d.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\11\\112a1dfc564f0cd75a09d0b59064642b802cac6a1d2590615ece56f9f2eb281d.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/11/112a1dfc564f0cd75a09d0b59064642b802cac6a1d2590615ece56f9f2eb281d.mp3",
+      "hf_path": "stream/11/112a1dfc564f0cd75a09d0b59064642b802cac6a1d2590615ece56f9f2eb281d.mp3",
+      "album": "Listen Let Go",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:53:52.709151+00:00"
+    },
+    {
+      "sha256": "1bac3d4dc3882fc6dd09d02de05ad18cef2263a7884d1fef2a6c81aa4bc9c90c",
+      "title": "24 Hour Aisle",
+      "aliases": [
+        "24 Hour Aisle"
+      ],
+      "isrcs": [],
+      "size": 4255467,
+      "stream_file": "1bac3d4dc3882fc6dd09d02de05ad18cef2263a7884d1fef2a6c81aa4bc9c90c.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\1b\\1bac3d4dc3882fc6dd09d02de05ad18cef2263a7884d1fef2a6c81aa4bc9c90c.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/1b/1bac3d4dc3882fc6dd09d02de05ad18cef2263a7884d1fef2a6c81aa4bc9c90c.mp3",
+      "hf_path": "stream/1b/1bac3d4dc3882fc6dd09d02de05ad18cef2263a7884d1fef2a6c81aa4bc9c90c.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:10.617417+00:00"
+    },
+    {
+      "sha256": "ddee931b46d646b6ad14217c382fbd8541cd9c889ab14e2efc4ed8bea82f1c57",
+      "title": "Basket Full of Sins",
+      "aliases": [
+        "Basket Full of Sins",
+        "Basket_Full_of_Sins"
+      ],
+      "isrcs": [],
+      "size": 3957671,
+      "stream_file": "ddee931b46d646b6ad14217c382fbd8541cd9c889ab14e2efc4ed8bea82f1c57.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\dd\\ddee931b46d646b6ad14217c382fbd8541cd9c889ab14e2efc4ed8bea82f1c57.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/dd/ddee931b46d646b6ad14217c382fbd8541cd9c889ab14e2efc4ed8bea82f1c57.mp3",
+      "hf_path": "stream/dd/ddee931b46d646b6ad14217c382fbd8541cd9c889ab14e2efc4ed8bea82f1c57.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:10.775912+00:00"
+    },
+    {
+      "sha256": "c4e6525ebc0f49033c39a4390e7e575dea4f2612df8f7c167360198934830431",
+      "title": "Brick and Bone",
+      "aliases": [
+        "Brick and Bone",
+        "Brick_and_Bone"
+      ],
+      "isrcs": [],
+      "size": 4392139,
+      "stream_file": "c4e6525ebc0f49033c39a4390e7e575dea4f2612df8f7c167360198934830431.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\c4\\c4e6525ebc0f49033c39a4390e7e575dea4f2612df8f7c167360198934830431.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/c4/c4e6525ebc0f49033c39a4390e7e575dea4f2612df8f7c167360198934830431.mp3",
+      "hf_path": "stream/c4/c4e6525ebc0f49033c39a4390e7e575dea4f2612df8f7c167360198934830431.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:10.947101+00:00"
+    },
+    {
+      "sha256": "2937d5447d85ddcbba58b06a4dad920c48f160af7b750138e2cc4a3b8011cfb9",
+      "title": "Smile and a Gun",
+      "aliases": [
+        "Smile and a Gun",
+        "Smile_and_a_Gun"
+      ],
+      "isrcs": [],
+      "size": 4014095,
+      "stream_file": "2937d5447d85ddcbba58b06a4dad920c48f160af7b750138e2cc4a3b8011cfb9.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\29\\2937d5447d85ddcbba58b06a4dad920c48f160af7b750138e2cc4a3b8011cfb9.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/29/2937d5447d85ddcbba58b06a4dad920c48f160af7b750138e2cc4a3b8011cfb9.mp3",
+      "hf_path": "stream/29/2937d5447d85ddcbba58b06a4dad920c48f160af7b750138e2cc4a3b8011cfb9.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:11.437776+00:00"
+    },
+    {
+      "sha256": "0b41f50a0935b2cd591379e508106b90343ec4a39fc173fdd913681810fb245a",
+      "title": "Perimeter of One",
+      "aliases": [
+        "Perimeter of One",
+        "Perimeter_of_One"
+      ],
+      "isrcs": [],
+      "size": 4353269,
+      "stream_file": "0b41f50a0935b2cd591379e508106b90343ec4a39fc173fdd913681810fb245a.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\0b\\0b41f50a0935b2cd591379e508106b90343ec4a39fc173fdd913681810fb245a.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/0b/0b41f50a0935b2cd591379e508106b90343ec4a39fc173fdd913681810fb245a.mp3",
+      "hf_path": "stream/0b/0b41f50a0935b2cd591379e508106b90343ec4a39fc173fdd913681810fb245a.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:11.296092+00:00"
+    },
+    {
+      "sha256": "c70f156fa836347c53d88adb151e45a4b9dbfb965fcaab2f4b65919a9940fc04",
+      "title": "Rules Made By You",
+      "aliases": [
+        "Rules Made By You",
+        "Rules_Made_By_You"
+      ],
+      "isrcs": [],
+      "size": 4352015,
+      "stream_file": "c70f156fa836347c53d88adb151e45a4b9dbfb965fcaab2f4b65919a9940fc04.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\c7\\c70f156fa836347c53d88adb151e45a4b9dbfb965fcaab2f4b65919a9940fc04.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/c7/c70f156fa836347c53d88adb151e45a4b9dbfb965fcaab2f4b65919a9940fc04.mp3",
+      "hf_path": "stream/c7/c70f156fa836347c53d88adb151e45a4b9dbfb965fcaab2f4b65919a9940fc04.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:11.427490+00:00"
+    },
+    {
+      "sha256": "3c5542546df9aba2d65d7964a938bcef3056b2c5ccc4335e1cd94d9b591abad5",
+      "title": "The Rain I Brought",
+      "aliases": [
+        "The Rain I Brought",
+        "The_Rain_I_Brought"
+      ],
+      "isrcs": [],
+      "size": 4387751,
+      "stream_file": "3c5542546df9aba2d65d7964a938bcef3056b2c5ccc4335e1cd94d9b591abad5.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\3c\\3c5542546df9aba2d65d7964a938bcef3056b2c5ccc4335e1cd94d9b591abad5.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/3c/3c5542546df9aba2d65d7964a938bcef3056b2c5ccc4335e1cd94d9b591abad5.mp3",
+      "hf_path": "stream/3c/3c5542546df9aba2d65d7964a938bcef3056b2c5ccc4335e1cd94d9b591abad5.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:11.639886+00:00"
+    },
+    {
+      "sha256": "d122196cb4a6b88640ef5e2bf14d7a4653f9498bafdd996241ecbc7d7a24d546",
+      "title": "Under Pressure",
+      "aliases": [
+        "Under Pressure",
+        "Under_Pressure"
+      ],
+      "isrcs": [],
+      "size": 3913158,
+      "stream_file": "d122196cb4a6b88640ef5e2bf14d7a4653f9498bafdd996241ecbc7d7a24d546.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\d1\\d122196cb4a6b88640ef5e2bf14d7a4653f9498bafdd996241ecbc7d7a24d546.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/d1/d122196cb4a6b88640ef5e2bf14d7a4653f9498bafdd996241ecbc7d7a24d546.mp3",
+      "hf_path": "stream/d1/d122196cb4a6b88640ef5e2bf14d7a4653f9498bafdd996241ecbc7d7a24d546.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:11.809918+00:00"
+    },
+    {
+      "sha256": "0f7d8f428acc3687227420fea14040f362a4b9603d073f3ce29ed8c5296e2978",
+      "title": "Only Fake Smiles",
+      "aliases": [
+        "Only Fake Smiles"
+      ],
+      "isrcs": [],
+      "size": 3298787,
+      "stream_file": "0f7d8f428acc3687227420fea14040f362a4b9603d073f3ce29ed8c5296e2978.mp3",
+      "local_stream": "I:\\E Drive\\MUSIC_VAULT\\public_stream\\0f\\0f7d8f428acc3687227420fea14040f362a4b9603d073f3ce29ed8c5296e2978.mp3",
+      "stream_url": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream/resolve/main/stream/0f/0f7d8f428acc3687227420fea14040f362a4b9603d073f3ce29ed8c5296e2978.mp3",
+      "hf_path": "stream/0f/0f7d8f428acc3687227420fea14040f362a4b9603d073f3ce29ed8c5296e2978.mp3",
+      "album": "October 2026",
+      "artist": "Excavationpro",
+      "moniker": "",
+      "added_utc": "2026-10-04T23:54:13.839201+00:00"
     }
   ],
   "hf_dataset": "https://huggingface.co/datasets/DeepSeekOracle/excavationpro-music-stream",
