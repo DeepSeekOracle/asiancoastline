@@ -15,6 +15,7 @@
 <meta name="bingbot" content="index, follow">
 <meta name="theme-color" content="#0a0a12">
 <meta name="google-adsense-account" content="ca-pub-0646320966060599">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0646320966060599" crossorigin="anonymous"></script>
 <link rel="canonical" href="https://asiancoastline.com/listen.html">
 <link rel="alternate" type="application/json" href="data/public_stream_playlist.json" title="Stream playlist JSON">
 <meta property="og:site_name" content="asiancoastline.com">
@@ -54,7 +55,21 @@ body {
 a { color:var(--cyan); text-decoration:none; }
 a:hover { text-decoration:underline; }
 .wrap { max-width:1120px; margin:0 auto; padding:0 16px; }
-header.hero { padding:22px 0 10px; border-bottom:1px solid rgba(0,240,255,.12); }
+header.hero {
+  padding:46px 0 26px; border-bottom:1px solid rgba(0,240,255,.12); border-radius:0 0 20px 20px;
+  background:
+    linear-gradient(180deg, rgba(6,6,14,.62) 0%, rgba(6,6,14,.48) 42%, rgba(6,6,14,.9) 100%),
+    url("/assets/listen-bg.jpg") center 45% / cover no-repeat;
+  box-shadow:0 24px 60px -40px rgba(0,0,0,.9);
+}
+.hero-cta { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+.hero-cta a { display:inline-flex; align-items:center; gap:8px; padding:11px 16px; border-radius:9px; font-weight:700; font-size:.9rem; border:1px solid rgba(0,240,255,.3); background:rgba(0,240,255,.08); color:var(--text); }
+.hero-cta a.primary { background:linear-gradient(135deg,var(--gold),#e8c96a); border-color:var(--gold); color:#140f08; }
+.hero-cta a:hover { text-decoration:none; border-color:var(--gold); }
+.player-wave { margin:14px 0 2px; padding:12px 14px 9px; border:1px solid rgba(0,240,255,.18); border-radius:12px; background:rgba(8,8,16,.55); }
+.player-wave canvas { display:block; width:100%; height:96px; }
+.wave-meta { display:flex; justify-content:space-between; gap:12px; margin-top:6px; font-size:.7rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+.wave-meta b { color:var(--gold); font-weight:600; }
 h1 { font-family:Cinzel,serif; color:var(--gold); margin:0 0 8px; font-size:clamp(1.4rem,3vw,1.9rem); }
 .sub { color:var(--muted); line-height:1.55; max-width:70ch; font-size:.95rem; }
 .nav-main { display:flex; flex-wrap:wrap; gap:8px 10px; margin-top:14px; }
@@ -262,6 +277,12 @@ footer { max-width:1120px; margin:24px auto 0; padding:16px; color:var(--muted);
   <h1>Excavationpro — Listen Free</h1>
   <p class="sub">Epic sovereign music portal — free browser player, immutable ledger, SHA-256 vault, and live portals.
   Independent of DistroKid and Spotify. Support keeps hosting &amp; tools free for everyone.</p>
+  <div class="hero-cta">
+    <a class="primary" href="#list">Play the catalog</a>
+    <a href="/how-to-use-the-player.html">How to listen</a>
+    <a href="/guides.html">Guides</a>
+    <a href="https://bpmfinder.ca/tools.html">All tools</a>
+  </div>
   <nav class="nav-main" id="nav-main" aria-label="All sites"></nav>
   <div class="live-pills" aria-label="Live streaming portals">
     <a href="https://kick.com/excavationpro" target="_blank" rel="noopener">● Kick Live</a>
@@ -275,6 +296,13 @@ footer { max-width:1120px; margin:24px auto 0; padding:16px; color:var(--muted);
     <a class="paypal-btn" href="https://www.paypal.com/paypalme/ExcavationPro" target="_blank" rel="noopener noreferrer">Donate via PayPal</a>
   </div>
 </header>
+
+<div class="wrap">
+  <div class="player-wave" aria-label="Live audio waveform">
+    <canvas id="playerWave" width="1600" height="180"></canvas>
+    <div class="wave-meta"><span>Live waveform</span><span><b id="waveState">idle</b> · Excavationpro catalog</span></div>
+  </div>
+</div>
 
 <div class="wrap">
   
@@ -1545,6 +1573,39 @@ rebuildFilter();
 })();
 
 /* ===== END v2 ===== */
+</script>
+<script>
+(function () {
+  var canvas = document.getElementById('playerWave'); if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var audio = document.getElementById('audio');
+  var state = document.getElementById('waveState');
+  var raf = null;
+  function hash(str) { var h=2166136261; for (var i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619);} return h>>>0; }
+  function name(){ var n=document.getElementById('now-title'); return n&&n.textContent?n.textContent:'Excavationpro'; }
+  function draw(){
+    raf=null; var w=canvas.width,h=canvas.height; ctx.clearRect(0,0,w,h);
+    var seed=hash(name());
+    var dur=audio&&isFinite(audio.duration)&&audio.duration>0?audio.duration:1;
+    var prog=audio?Math.min(1,audio.currentTime/dur):0;
+    var playing=audio&&!audio.paused&&!audio.ended;
+    var bars=120,gap=2,bw=(w-gap*(bars-1))/bars;
+    for(var i=0;i<bars;i++){
+      var n=Math.sin((i+(seed%41))*0.37)*0.5+Math.sin((i+(seed%17))*0.13)*0.3+0.5;
+      var bh=Math.max(4,Math.min(h-10,n*(h-14))),x=i*(bw+gap),y=(h-bh)/2,active=i/bars<=prog;
+      var g=ctx.createLinearGradient(0,y,0,y+bh);
+      if(active){g.addColorStop(0,'rgba(232,194,122,.95)');g.addColorStop(1,'rgba(74,212,200,.75)');}
+      else{g.addColorStop(0,'rgba(74,212,200,.20)');g.addColorStop(1,'rgba(126,200,255,.12)');}
+      ctx.fillStyle=g;ctx.beginPath();ctx.roundRect(x,y,Math.max(1,bw),bh,1.5);ctx.fill();
+    }
+    if(state)state.textContent=playing?'live':(prog>0?'paused':'idle');
+    if(playing&&!raf)raf=requestAnimationFrame(draw);
+  }
+  function refresh(){if(!raf)raf=requestAnimationFrame(draw);}
+  if(audio){['play','pause','ended','loadedmetadata','seeked'].forEach(function(e){audio.addEventListener(e,refresh);});audio.addEventListener('timeupdate',function(){if(audio.paused)refresh();});}
+  document.addEventListener('click',function(e){if(e.target.closest('[data-play], .row, #btn-play, #btn-next, #btn-prev'))setTimeout(refresh,120);});
+  refresh();
+})();
 </script>
 </body>
 </html>
