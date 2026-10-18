@@ -8,6 +8,17 @@ body.home { margin:0; background:var(--bg); color:var(--fg); font-family:Syne,sy
 .home .brand { color:var(--fg); text-decoration:none; font-weight:800; letter-spacing:.14em; }
 .home nav a { color:var(--fg); text-decoration:none; opacity:.82; margin-left:.8rem; }
 .home nav a[aria-current="page"], .home nav a:hover { color:var(--gold); opacity:1; }
+.home nav a.tools-link { color:var(--gold); font-weight:700; border:1px solid var(--gold); border-radius:999px; padding:.18rem .55rem; }
+.home a.mini { display:block; text-decoration:none; color:inherit; }
+.home a.mini strong { color:var(--gold); }
+@media (max-width: 720px) {
+  .home header.top { display:block; padding:.8rem 6vw 0; }
+  .home header.top .brand { display:block; margin-bottom:.25rem; }
+  .home header.top nav { display:flex; flex-wrap:wrap; gap:.3rem .7rem; width:100%; }
+  .home nav a { margin-left:0; font-size:.7rem; }
+  .home nav a.tools-link { padding:.1rem .45rem; }
+  .hero { min-height:96svh; }
+}
 .hero { min-height:100svh; display:grid; place-items:end stretch; background:url("/assets/hero.jpg") center/cover no-repeat; position:relative; }
 .hero::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(9,8,10,.18) 0%, rgba(9,8,10,.28) 45%, rgba(9,8,10,.94) 100%); }
 .hero-inner { position:relative; z-index:1; padding:0 6vw 8vh; max-width:48rem; }

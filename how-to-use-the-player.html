@@ -1,131 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-cookie-key="asiancoastline_cookies">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How to Use the Free Music Player | asiancoastline.com</title>
-<meta name="description" content="How to search, play, shuffle, and use radio mode on the Excavationpro free listen portal.">
+<title>How to Use the Free Listen Player | asiancoastline.com</title>
+<meta name="description" content="A practical guide to the free Excavationpro browser player: search, filters, keyboard shortcuts, shuffle, radio, favorites, crossfade, sleep, and PWA install.">
 <meta name="author" content="Justin Helmer / Excavationpro">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://asiancoastline.com/how-to-use-the-player.html">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=IBM+Plex+Mono:wght@400&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site-kit.css">
+<link rel="stylesheet" href="/assets/article.css">
 <meta name="google-adsense-account" content="ca-pub-0646320966060599">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0646320966060599" crossorigin="anonymous"></script>
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:url" content="https://asiancoastline.com/how-to-use-the-player.html">
-<meta property="og:title" content="How to Use the Free Music Player | asiancoastline.com">
-<meta property="og:description" content="How to search, play, shuffle, and use radio mode on the Excavationpro free listen portal.">
+<meta property="og:title" content="How to Use the Free Listen Player | asiancoastline.com">
+<meta property="og:description" content="A practical guide to the free Excavationpro browser player: search, filters, keyboard shortcuts, shuffle, radio, favorites, crossfade, sleep, and PWA install.">
 <meta property="og:site_name" content="asiancoastline.com">
-<meta name="twitter:site" content="@Excavationpro">
 <meta property="og:image" content="https://asiancoastline.com/assets/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="asiancoastline.com — Excavationpro">
+<meta property="og:image:alt" content="asiancoastline.com — free original music">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://asiancoastline.com/assets/og-home.jpg">
-<meta name="twitter:image:alt" content="asiancoastline.com">
+<meta name="twitter:site" content="@Excavationpro">
 <meta name="twitter:creator" content="@Excavationpro">
+<meta name="twitter:title" content="How to Use the Free Listen Player | asiancoastline.com">
+<meta name="twitter:description" content="A practical guide to the free Excavationpro browser player: search, filters, keyboard shortcuts, shuffle, radio, favorites, crossfade, sleep, and PWA install.">
+<meta name="twitter:image" content="https://asiancoastline.com/assets/og-home.jpg">
+<meta name="twitter:image:alt" content="asiancoastline.com — free original music">
 <meta name="theme-color" content="#0f1218">
-<style>
-:root {
-  --bg: #0f1218; --card: #171c26; --ink: #e8eaef; --muted: #9aa3b2;
-  --line: #2a3344; --accent: #3d9cf0; --accent2: #7dd3a0; --link: #7ec8ff;
-}
-* { box-sizing: border-box; }
-body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, sans-serif;
-  color: var(--ink); background: var(--bg); line-height: 1.65; font-size: 17px; }
-a { color: var(--link); }
-.wrap { max-width: 820px; margin: 0 auto; padding: 0 1.15rem; }
-header.site { background: rgba(23,28,38,.96); border-bottom: 1px solid var(--line);
-  padding: .85rem 0; position: sticky; top: 0; z-index: 40; backdrop-filter: blur(8px); }
-.nav { display: flex; flex-wrap: wrap; gap: .7rem 1rem; align-items: center; justify-content: space-between; }
-.brand { font-weight: 800; color: #fff; text-decoration: none; letter-spacing: .02em; }
-.navlinks { display: flex; flex-wrap: wrap; gap: .5rem .85rem; font-size: .88rem; }
-.navlinks a { text-decoration: none; color: var(--muted); }
-.navlinks a:hover, .navlinks a[aria-current="page"] { color: var(--accent2); }
-.hero { padding: 2rem 0 1rem; }
-.hero h1 { font-size: clamp(1.55rem, 3.8vw, 2.15rem); line-height: 1.25; margin: 0 0 .7rem; color: #fff; }
-.lead { color: var(--muted); font-size: 1.05rem; margin: 0 0 1.05rem; }
-.cta-row { display: flex; flex-wrap: wrap; gap: .55rem; }
-.btn { display: inline-block; padding: .68rem 1.05rem; border-radius: 9px; text-decoration: none !important;
-  font-weight: 700; font-size: .9rem; border: 1px solid var(--line); background: var(--card); color: #fff; }
-.btn.primary { background: linear-gradient(135deg, #1f6feb, #238636); border-color: transparent; }
-.notice { margin: 1.05rem 0 0; padding: .85rem 1rem; background: #13201a; border: 1px solid #234d38;
-  border-radius: 10px; font-size: .9rem; color: #cfe9d8; }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1.3rem 1.2rem; margin: 1.05rem 0; }
-.card h2 { margin: 0 0 .45rem; font-size: 1.22rem; color: #fff; }
-.card h3 { margin: 1rem 0 .3rem; font-size: 1.02rem; color: #dfe7f3; }
-.meta { font-size: .8rem; color: var(--muted); margin-bottom: .55rem; }
-.ad-slot { margin: 1.05rem 0; min-height: 90px; padding: 8px; background: #121722;
-  border: 1px dashed var(--line); border-radius: 8px; text-align: center; }
-.ad-label { font-size: 10px; text-transform: uppercase; letter-spacing: .08em; color: #778; margin-bottom: 6px; }
-.grid2 { display: grid; gap: .85rem; }
-@media (min-width: 700px) { .grid2 { grid-template-columns: 1fr 1fr; } }
-.tile { display: block; padding: 1rem; background: #121722; border: 1px solid var(--line);
-  border-radius: 10px; text-decoration: none; color: inherit; }
-.tile strong { display: block; color: #fff; margin-bottom: .25rem; }
-.tile span { color: var(--muted); font-size: .9rem; }
-footer.site { border-top: 1px solid var(--line); padding: 1.35rem 0 2.4rem; margin-top: 1.4rem;
-  font-size: .86rem; color: var(--muted); }
-footer.site nav { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin-bottom: .55rem; }
-ul, ol { padding-left: 1.2rem; }
-</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://asiancoastline.com/#website", "url": "https://asiancoastline.com/", "name": "asiancoastline.com", "description": "Free public listening for the Excavationpro catalog.", "publisher": {"@id": "https://asiancoastline.com/#organization"}}, {"@type": "Organization", "@id": "https://asiancoastline.com/#organization", "name": "Excavationpro / Asian Coastline", "url": "https://asiancoastline.com/", "email": "excavationstation@gmail.com", "founder": {"@type": "Person", "name": "Justin Helmer"}}, {"@type": "Article", "@id": "https://asiancoastline.com/how-to-use-the-player.html#article", "headline": "How to use the free listen player", "description": "A practical guide to the free Excavationpro browser player: search, filters, keyboard shortcuts, shuffle, radio, favorites, crossfade, sleep, and PWA install.", "url": "https://asiancoastline.com/how-to-use-the-player.html", "mainEntityOfPage": {"@id": "https://asiancoastline.com/how-to-use-the-player.html#webpage"}, "author": {"@type": "Person", "name": "Justin Helmer", "url": "https://excavationpro.ca/"}, "publisher": {"@id": "https://asiancoastline.com/#organization"}, "datePublished": "2026-10-20", "dateModified": "2026-10-20", "image": "https://asiancoastline.com/assets/og-home.jpg"}, {"@type": "WebPage", "@id": "https://asiancoastline.com/how-to-use-the-player.html#webpage", "url": "https://asiancoastline.com/how-to-use-the-player.html", "name": "How to use the free listen player", "description": "A practical guide to the free Excavationpro browser player: search, filters, keyboard shortcuts, shuffle, radio, favorites, crossfade, sleep, and PWA install.", "isPartOf": {"@id": "https://asiancoastline.com/#website"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need an account to listen?", "acceptedAnswer": {"@type": "Answer", "text": "No. Favorites and queue are stored locally in the browser."}}, {"@type": "Question", "name": "Can I download the tracks?", "acceptedAnswer": {"@type": "Answer", "text": "The player streams the public catalog; it is a listening room, not a download store."}}, {"@type": "Question", "name": "Why does the catalog show Haven books?", "acceptedAnswer": {"@type": "Answer", "text": "The player carries the Eternal Haven audio alongside the music; the Haven chip isolates it."}}, {"@type": "Question", "name": "Does the player work offline?", "acceptedAnswer": {"@type": "Answer", "text": "The installed app caches the shell, but audio streams from the public catalog."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://asiancoastline.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://asiancoastline.com/guides.html"}, {"@type": "ListItem", "position": 3, "name": "How to use the free listen player", "item": "https://asiancoastline.com/how-to-use-the-player.html"}]}]}</script>
 </head>
 <body>
-<header class="site"><div class="wrap nav">
-<a class="brand" href="/">asiancoastline.com</a>
-<nav class="navlinks" aria-label="Primary"><a href="/">Home</a> <a href="/listen.html">Listen free</a> <a href="/guides.html">Guides</a> <a href="/about.html">About</a> <a href="/contact.html">Contact</a> <a href="/privacy.html">Privacy</a></nav>
-</div></header>
-<div class="wrap">
-
-  <section class="hero">
-    <h1>How to use the free listen player</h1>
-    <p class="lead">Search, radio, shuffle, favorites, and live rooms — without breaking the catalog.</p>
-    <div class="cta-row"><a class="btn primary" href="/listen.html">Open player</a></div>
-  </section>
-  <div class="ad-slot" aria-label="Advertisement">
-    <div class="ad-label">Advertisement</div>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0646320966060599" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="/">asiancoastline.com</a>
+    <nav class="navlinks" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/listen.html">Listen free</a>
+      <a href="/guides.html" aria-current="page">Guides</a>
+      <a href="https://bpmfinder.ca/tools.html" class="nav-tools">Tools</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
   </div>
+</header>
 
-  <main>
-    <article class="card">
-      <h2>Basic steps</h2>
-      <ol>
-        <li>Go to <a href="/listen.html">listen.html</a>.</li>
-        <li>Use search to find a title, or browse the list.</li>
-        <li>Press play. Use next/previous as needed.</li>
-        <li>Try shuffle or radio mode for continuous listening.</li>
-        <li>Open live portal links if you want Kick / Rumble / Twitch rooms.</li>
-      </ol>
-      <h2>Tips</h2>
-      <ul>
-        <li>On mobile, use headphones and keep the tab open for background play (browser dependent).</li>
-        <li>If a track fails, try another — streams are hosted for free listening and can be re-checked.</li>
-        <li>Return to <a href="/">Home</a> for guides and publisher info.</li>
-      </ul>
-      <h2>Keyboard (desktop)</h2>
-      <p>Where enabled, space toggles play/pause; N/P move tracks; S shuffles. Check the player dock for the current shortcuts.</p>
-    </article>
-  </main>
+<div class="wrap">
+<section class="hero">
+  <p class="breadcrumb"><a href="/">Home</a> / <a href="/guides.html">Guides</a> / How to use the free listen player</p>
+  <h1>How to use the free listen player</h1>
+  <p class="lead">The player at /listen.html is a full browser listening room: search the catalog, filter by album or Haven books, build a queue, shuffle, run radio, crossfade, and install it as an app. Here is the short version.</p>
+  <p class="article-meta">Guide &middot; Justin Helmer &middot; <time datetime="2026-10-20">Updated 2026-10-20</time> &middot; 7 min read &middot; <span class="tag">player</span><span class="tag">how-to</span><span class="tag">listening</span></p>
+  <div class="cta-row">
+    <a class="btn primary" href="/listen.html">Open the free player</a>
+    <a class="btn" href="/guides.html">All guides</a>
+  </div>
+</section>
+<main>
 
+<article class="card">
+  <h2>Open the player and find a track</h2>
+  <p>Go to <a href="/listen.html">/listen.html</a>. The player loads the public catalog and shows the full track list. Use the search box for a title, an ISRC, or a hash fragment. The sort menu orders by title, size, or ISRC presence; the filter menu narrows to playable tracks or tracks with an ISRC.</p>
+  <p>The chips under the toolbar are the fast path: <strong>Music</strong> for the main catalog, <strong>Haven books</strong> for the Eternal Haven audio, <strong>Favorites</strong> for what you have hearted, and <strong>Queue</strong> for what you have lined up. The library is large; searching is faster than scrolling.</p>
+  <h2>Play, pause, and move through the catalog</h2>
+  <p>Click a row to play it. The dock at the bottom holds play/pause, previous/next, shuffle, radio, repeat, volume, crossfade, and the sleep timer. On desktop, the keyboard is quicker: <strong>Space</strong> play/pause, <strong>N</strong>/<strong>P</strong> next/previous, <strong>S</strong> shuffle, <strong>R</strong> radio, <strong>F</strong> favorite, and <strong>/</strong> search.</p>
+  <p>Radio keeps playing after the current track. Shuffle changes the order. Repeat one holds a single track. Crossfade blends the end of one track into the next; the sleep timer stops playback after 15&ndash;90 minutes, which is useful for a listening session at night.</p>
+</article>
+<div class="ad-slot" aria-label="Advertisement">
+  <div class="ad-label">Advertisement</div>
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0646320966060599" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
-<footer class="site"><div class="wrap">
-<nav aria-label="Footer">
-  <a href="/">Home</a>
-  <a href="/listen.html">Listen free</a>
-  <a href="/guides.html">Guides</a>
-  <a href="/independent-music-listening.html">Independent listening</a>
-  <a href="/why-free-streams.html">Why free streams</a>
-  <a href="/about.html">About</a>
-  <a href="/contact.html">Contact</a>
-  <a href="/privacy.html">Privacy</a>
-  <a href="/terms.html">Terms</a>
-</nav>
-<p>© 2026 Justin Helmer / Excavationpro · asiancoastline.com — free original music listen portal.
-Contact: <a href="mailto:excavationstation@gmail.com">excavationstation@gmail.com</a></p>
-</div></footer>
+<article class="card">
+  <h2>Favorites, queue, and sharing</h2>
+  <p>The heart button saves a track to your local favorites. Favorites are stored in your browser, not on an account. The queue lets you line up a few tracks without losing your place. The share button copies a link to the current track or opens the share sheet on mobile.</p>
+  <p>If you clear your browser storage, favorites and queue are lost. That is the trade-off for not requiring an account. If you want a permanent list, keep a note or a playlist file outside the browser.</p>
+  <h2>Install it as an app</h2>
+  <p>On Chrome or Edge, use the install button in the toolbar or the browser menu&rsquo;s <strong>Install</strong> / <strong>Add to Home Screen</strong> option. On iOS Safari, use Share &rarr; Add to Home Screen. The installed version opens the same player in a standalone window and keeps the basic shell cached, so it feels less like a website and more like a small app.</p>
+  <h2>Mobile and data use</h2>
+  <p>The player is responsive; the track list, dock, and controls stack on a phone. Streaming uses data like any browser audio: a long session can consume hundreds of megabytes. On a metered connection, lower the volume, use shorter sessions, or download the tracks you own elsewhere rather than streaming for hours.</p>
+  <h2>Troubleshooting</h2>
+  <ul>
+    <li><strong>A track will not start.</strong> Try another track first; if only one fails, the stream file may be missing from the public catalog. The ledger shows what is expected.</li>
+    <li><strong>Playback stops when the screen locks.</strong> Mobile browsers may suspend background audio. Keep the tab active or use the installed app where the browser allows it.</li>
+    <li><strong>The list is empty after a filter.</strong> Clear the search and set the filter back to All. The Haven filter only shows audio tagged as Haven books.</li>
+    <li><strong>No sound.</strong> Check the volume slider in the dock, the system volume, and whether another tab is holding the audio session.</li>
+  </ul>
+  <p>The player does not require an account and does not upload your listening history. The <a href="/privacy.html">privacy policy</a> covers the hosting, streaming, and advertising layers.</p>
+</article>
 
+<article class="card">
+  <h2>A five-minute listening session</h2>
+  <p>If you want a useful first session, do not start with shuffle. Pick one album from the catalog, queue the first three tracks, and turn crossfade off so you hear the transitions the artist chose. Set the sleep timer to 30 minutes if you are listening at night. Use the search box to find the album by name, then let the queue run.</p>
+  <p>After three tracks, open the ledger tab and look at the hashes. The ledger is not required for listening, but it shows that the public catalog has a verifiable record. If a track fails, note the title and whether the other tracks on the same album play; that is the difference between a single missing file and a network problem.</p>
+  <p>On a phone, add the player to the home screen before you start. The installed shell opens faster and avoids the browser chrome taking up the screen. If you are on a metered connection, keep the session short and avoid leaving radio running in the background for hours.</p>
+</article>
+
+<article class="card faq">
+  <h2>FAQ</h2>
+  <h3>Do I need an account to listen?</h3>
+  <p>No. The player opens without a signup. Favorites and queue are stored locally in your browser.</p>
+  <h3>Can I download the tracks?</h3>
+  <p>The player streams the public catalog. It is a listening room, not a download store. The <a href="/terms.html">terms</a> explain the listening license.</p>
+  <h3>Why does the catalog show Haven books?</h3>
+  <p>The same public player carries the Eternal Haven audio alongside the music. Use the Haven chip to isolate it, or All to see everything.</p>
+  <h3>Does the player work offline?</h3>
+  <p>The installed app caches the shell, but the audio streams from the public catalog. Full offline listening would require downloading files you own.</p>
+</article>
+<div class="related"><h2>Related guides</h2><ul><li><a href="/how-free-streaming-works.html">How browser streaming works</a></li><li><a href="/why-free-streams.html">Why free streams exist</a></li><li><a href="/independent-music-listening.html">Independent listening</a></li></ul></div>
+<div class="author-box">
+  <strong>Justin Helmer</strong> publishes asiancoastline.com and records as
+  <a href="https://excavationpro.ca/">Excavationpro</a>. The catalog is his own; the player is a
+  free public listening room, not a distributor storefront. <a href="/about.html">About the site</a>.
+</div>
+
+</main>
+</div>
+<footer class="site">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="/">Home</a>
+      <a href="/listen.html">Listen free</a>
+      <a href="/guides.html">Guides</a>
+      <a href="/how-to-use-the-player.html">How to use the player</a>
+      <a href="/why-free-streams.html">Why free streams</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </nav>
+    <p class="family">
+      <span>More from the workshop:</span>
+      <a href="https://excavationpro.ca/">Excavationpro &mdash; music &amp; essays</a>
+      <a href="https://bpmfinder.ca/">BPMfinder &mdash; tempo tools</a>
+      <a href="https://justinhelmer.ca/">Justin Helmer &mdash; artist portal</a>
+      <a href="https://deepseekoracle.com/">DeepSeek Oracle &mdash; AI &amp; creator guides</a>
+      <a href="https://eternalhaven.ca/">Eternal Haven &mdash; books &amp; games</a>
+      <a href="https://chatagent.ca/">Chatagent &mdash; AI agent guides</a>
+    </p>
+    <p>&copy; 2026 Justin Helmer &middot; asiancoastline.com &mdash; free public listening for the
+    Excavationpro catalog. Contact: <a href="mailto:excavationstation@gmail.com">excavationstation@gmail.com</a></p>
+  </div>
+</footer>
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent">
+  <div>Ads may use cookies after you accept. <a href="/privacy.html">Privacy</a></div>
+  <div>
+    <button type="button" class="ok" id="cookieOk">Accept</button>
+    <button type="button" class="no" id="cookieNo">Decline</button>
+  </div>
+</div>
+<script src="/assets/site-kit.js"></script>
 </body>
 </html>
